@@ -19,29 +19,439 @@ nlu:
 
 - intent: inform
   examples: |
-    - my email is [john.doe@example.com]{"entity":"email"}
-    - this is my email [jane.smith@emailprovider.com]{"entity":"email"}
-    - here you go [sam.jones@emailhost.com]{"entity":"email"}
-    - my email is [alexander.j@emailservice.com]{"entity":"email"}
-    - this is my email [smith.m@example.org]{"entity":"email"}
-    - here you go, my email [sara.p@emailplatform.com]{"entity":"email"}
-    - my email is [peter.k@emailprovider.com]{"entity":"email"}
-    - here you go [laura.w@emailservice.com]{"entity":"email"}
-    - my email is [emily.white@example.net]{"entity":"email"}
-    - this is my email [david.c@emailhost.com]{"entity":"email"}
-    - my title is [Professor Smith]{"entity":"name"}
-    - behold, the great [Victoria Monroe]{"entity":"name"}
-    - introducing the amazing [Oliver Foster]{"entity":"name"}
-    - this is [Drake Thompson]{"entity":"name"} speaking
-    - presenting the one and only [Penelope Foster]{"entity":"name"}
-    - I'm often called [Lucas Evans]{"entity":"name"}
-    - known as [Sophia Richardson]{"entity":"name"}, pleased to meet you
-    - here's [Ethan Turner]{"entity":"name"} for your consideration
-    - they call me [Scarlett Adams]{"entity":"name"} around here
-    - meet the talented [Gabriel Martin]{"entity":"name"}
-    - presenting the extraordinary [Hannah Phillips]{"entity":"name"}
-    - my name, [Oscar Lopez]{"entity":"name"}, is not easily forgotten
-    - this is [Ruby Allen]{"entity":"name"} - remember the name!
+    - my email is [amit.sharma@example.com]{"entity":"email"}
+    - this is my email [neha.verma@emailprovider.com]{"entity":"email"}
+    - here you go [rishabh.kumar@emailhost.com]{"entity":"email"}
+    - my email is [ananya.singh@emailservice.com]{"entity":"email"}
+    - my email is [farhaan.20223022@mnnit.ac.in]{"entity":"email"}
+    - this is my email [jathar.20226700@mnnit.ac.in]{"entity":"email"}
+    - here you go [Rahul.20193022@mnnit.ac.in]{"entity":"email"}
+    - my email is [ananya.singh@emailservice.com]{"entity":"email"}
+    - this is my email [rajat.m@example.org]{"entity":"email"}
+    - here you go, my email [pooja.patil@emailplatform.com]{"entity":"email"}
+    - my email is [rohan.jain@emailprovider.com]{"entity":"email"}
+    - here you go [shruti.gupta@emailservice.com]{"entity":"email"}
+    - my email is [akash.mishra@example.net]{"entity":"email"}
+    - this is my email [tanvi.j@emailhost.com]{"entity":"email"}
+    - my email is [kiran.kumar@example.com]{"entity":"email"}
+    - this is my email [priya.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [deepak.singh@emailhost.com]{"entity":"email"}
+    - my email is [anushka.verma@emailservice.com]{"entity":"email"}
+    - this is my email [ravi.m@example.org]{"entity":"email"}
+    - here you go, my email [divya.patil@emailplatform.com]{"entity":"email"}
+    - my email is [rahul.jain@emailprovider.com]{"entity":"email"}
+    - here you go [komal.gupta@emailservice.com]{"entity":"email"}
+    - my email is [saurabh.mishra@example.net]{"entity":"email"}
+    - this is my email [naina.j@emailhost.com]{"entity":"email"}
+    - my email is [vikas.kumar@example.com]{"entity":"email"}
+    - this is my email [priyanka.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arjun.singh@emailhost.com]{"entity":"email"}
+    - my email is [aarti.verma@emailservice.com]{"entity":"email"}
+    - this is my email [akash.m@example.org]{"entity":"email"}
+    - here you go, my email [tanvi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [vijay.jain@emailprovider.com]{"entity":"email"}
+    - here you go [shreya.gupta@emailservice.com]{"entity":"email"}
+    - my email is [amit.mishra@example.net]{"entity":"email"}
+    - this is my email [kavita.j@emailhost.com]{"entity":"email"}
+    - my email is [vivek.kumar@example.com]{"entity":"email"}
+    - this is my email [nisha.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [sumit.singh@emailhost.com]{"entity":"email"}
+    - my email is [swati.verma@emailservice.com]{"entity":"email"}
+    - this is my email [deepak.m@example.org]{"entity":"email"}
+    - here you go, my email [anjali.patil@emailplatform.com]{"entity":"email"}
+    - my email is [raj.kumar@example.com]{"entity":"email"}
+    - this is my email [sneha.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rahul.singh@emailhost.com]{"entity":"email"}
+    - my email is [smita.verma@emailservice.com]{"entity":"email"}
+    - this is my email [anand.m@example.org]{"entity":"email"}
+    - here you go, my email [neha.patil@emailplatform.com]{"entity":"email"}
+    - my email is [arun.kumar@example.com]{"entity":"email"}
+    - this is my email [poonam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [vikram.singh@emailhost.com]{"entity":"email"}
+    - my email is [poonam.verma@emailservice.com]{"entity":"email"}
+    - this is my email [aniket.m@example.org]{"entity":"email"}
+    - here you go, my email [bhavana.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amit.kumar@example.com]{"entity":"email"}
+    - this is my email [ritu.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [suresh.singh@emailhost.com]{"entity":"email"}
+    - my email is [anju.verma@emailservice.com]{"entity":"email"}
+    - this is my email [shiv.m@example.org]{"entity":"email"}
+    - here you go, my email [pallavi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [manoj.kumar@example.com]{"entity":"email"}
+    - this is my email [sonam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [preeti.verma@emailservice.com]{"entity":"email"}
+    - this is my email [ashish.m@example.org]{"entity":"email"}
+    - here you go, my email [rupal.patil@emailplatform.com]{"entity":"email"}
+    - my email is [akash.kumar@example.com]{"entity":"email"}
+    - this is my email [geeta.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [vijay.singh@emailhost.com]{"entity":"email"}
+    - my email is [aarti.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [sunil.m@example.org]{"entity":"email"}
+    - here you go, my email [sakshi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amit.singh@example.com]{"entity":"email"}
+    - this is my email [anita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [deepa.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mukesh.m@example.org]{"entity":"email"}
+    - here you go, my email [priyanka.patil@emailplatform.com]{"entity":"email"}
+    - my email is [prakash.singh@example.com]{"entity":"email"}
+    - this is my email [swati.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arvind.singh@emailhost.com]{"entity":"email"}
+    - my email is [sangeeta.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mohan.m@example.org]{"entity":"email"}
+    - here you go, my email [poonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [rajesh.kumar@example.com]{"entity":"email"}
+    - this is my email [rakhi.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [shiv.singh@emailhost.com]{"entity":"email"}
+    - my email is [anita.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [vinod.m@example.org]{"entity":"email"}
+    - here you go, my email [rekha.patil@emailplatform.com]{"entity":"email"}
+    - my email is [sanjay.singh@example.com]{"entity":"email"}
+    - this is my email [anu.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [suresh.singh@emailhost.com]{"entity":"email"}
+    - my email is [priya.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [rahul.m@example.org]{"entity":"email"}
+    - here you go, my email [neetu.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amrita.singh@example.com]{"entity":"email"}
+    - this is my email [arjun.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [kamlesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [puja.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [naveen.m@example.org]{"entity":"email"}
+    - here you go, my email [sita.patil@emailplatform.com]{"entity":"email"}
+    - my email is [ankit.singh@example.com]{"entity":"email"}
+    - this is my email [anamika.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [manoj.singh@emailhost.com]{"entity":"email"}
+    - my email is [asha.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [deepak.m@example.org]{"entity":"email"}
+    - here you go, my email [sonali.patil@emailplatform.com]{"entity":"email"}
+    - my email is [ashok.singh@example.com]{"entity":"email"}
+    - this is my email [shivani.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [santosh.singh@emailhost.com]{"entity":"email"}
+    - my email is [poonam.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [raj.m@example.org]{"entity":"email"}
+    - here you go, my email [kavita.patil@emailplatform.com]{"entity":"email"}
+    - my email is [atul.singh@example.com]{"entity":"email"}
+    - this is my email [neelam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [priti.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [suresh.m@example.org]{"entity":"email"}
+    - here you go, my email [vandana.patil@emailplatform.com]{"entity":"email"}
+    - my email is [babita.singh@example.com]{"entity":"email"}
+    - this is my email [kiran.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [mukesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [laxmi.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [sunil.m@example.org]{"entity":"email"}
+    - here you go, my email [shivangi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [bhagat.singh@example.com]{"entity":"email"}
+    - this is my email [radha.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [anjali.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [arvind.m@example.org]{"entity":"email"}
+    - here you go, my email [priyanka.patil@emailplatform.com]{"entity":"email"}
+    - my email is [baldev.singh@example.com]{"entity":"email"}
+    - this is my email [sakshi.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [anil.singh@emailhost.com]{"entity":"email"}
+    - my email is [deepika.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [jitendra.m@example.org]{"entity":"email"}
+    - here you go, my email [sonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [brijesh.singh@example.com]{"entity":"email"}
+    - this is my email [aarti.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajkumar.singh@emailhost.com]{"entity":"email"}
+    - my email is [chanchal.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [sanjay.m@example.org]{"entity":"email"}
+    - here you go, my email [urvashi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [devendra.singh@example.com]{"entity":"email"}
+    - this is my email [sweta.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ravi.singh@emailhost.com]{"entity":"email"}
+    - my email is [dipika.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [akash.m@example.org]{"entity":"email"}
+    - here you go, my email [priya.patil@emailplatform.com]{"entity":"email"}
+    - my email is [gulshan.singh@example.com]{"entity":"email"}
+    - this is my email [pallavi.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [vijay.singh@emailhost.com]{"entity":"email"}
+    - my email is [heena.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [raj.m@example.org]{"entity":"email"}
+    - here you go, my email [vandana.patil@emailplatform.com]{"entity":"email"}
+    - my email is [jagdish.singh@example.com]{"entity":"email"}
+    - this is my email [sunita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [sunil.singh@emailhost.com]{"entity":"email"}
+    - my email is [kalpana.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [ashish.m@example.org]{"entity":"email"}
+    - here you go, my email [ritu.patil@emailplatform.com]{"entity":"email"}
+    - my email is [kamal.singh@example.com]{"entity":"email"}
+    - this is my email [geeta.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [anand.singh@emailhost.com]{"entity":"email"}
+    - my email is [rekha.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mukesh.m@example.org]{"entity":"email"}
+    - here you go, my email [neha.patil@emailplatform.com]{"entity":"email"}
+    - my email is [kishan.singh@example.com]{"entity":"email"}
+    - this is my email [nisha.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajendra.singh@emailhost.com]{"entity":"email"}
+    - my email is [manju.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [vijay.m@example.org]{"entity":"email"}
+    - here you go, my email [swati.patil@emailplatform.com]{"entity":"email"}
+    - my email is [krishna.singh@example.com]{"entity":"email"}
+    - this is my email [sarita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arjun.singh@emailhost.com]{"entity":"email"}
+    - my email is [radha.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [anil.m@example.org]{"entity":"email"}
+    - here you go, my email [preeti.patil@emailplatform.com]{"entity":"email"}
+    - my email is [kunal.singh@example.com]{"entity":"email"}
+    - this is my email [neelam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [sangeeta.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mohan.m@example.org]{"entity":"email"}
+    - here you go, my email [poonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [lalit.singh@example.com]{"entity":"email"}
+    - this is my email [anita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [priya.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [sunil.m@example.org]{"entity":"email"}
+    - here you go, my email [shivangi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [lokesh.singh@example.com]{"entity":"email"}
+    - this is my email [richa.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [raj.singh@emailhost.com]{"entity":"email"}
+    - my email is [pooja.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [raj.m@example.org]{"entity":"email"}
+    - here you go, my email [kavita.patil@emailplatform.com]{"entity":"email"}
+    - my email is [gopal.singh@example.com]{"entity":"email"}
+    - this is my email [jyoti.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [kamal.singh@emailhost.com]{"entity":"email"}
+    - my email is [monika.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [deepak.m@example.org]{"entity":"email"}
+    - here you go, my email [sonali.patil@emailplatform.com]{"entity":"email"}
+    - my email is [rajesh.singh@example.com]{"entity":"email"}
+    - this is my email [sonam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [preeti.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [ashish.m@example.org]{"entity":"email"}
+    - here you go, my email [rupal.patil@emailplatform.com]{"entity":"email"}
+    - my email is [santosh.singh@example.com]{"entity":"email"}
+    - this is my email [anu.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [suresh.singh@emailhost.com]{"entity":"email"}
+    - my email is [priya.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [rahul.m@example.org]{"entity":"email"}
+    - here you go, my email [neetu.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amrita.singh@example.com]{"entity":"email"}
+    - this is my email [anita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [deepa.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mukesh.m@example.org]{"entity":"email"}
+    - here you go, my email [priyanka.patil@emailplatform.com]{"entity":"email"}
+    - my email is [prakash.singh@example.com]{"entity":"email"}
+    - this is my email [swati.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arvind.singh@emailhost.com]{"entity":"email"}
+    - my email is [sangeeta.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mohan.m@example.org]{"entity":"email"}
+    - here you go, my email [poonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [arun.singh@example.com]{"entity":"email"}
+    - this is my email [poonam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [vikram.singh@emailhost.com]{"entity":"email"}
+    - my email is [poonam.verma@emailservice.com]{"entity":"email"}
+    - this is my email [aniket.m@example.org]{"entity":"email"}
+    - here you go, my email [bhavana.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amit.kumar@example.com]{"entity":"email"}
+    - this is my email [ritu.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [suresh.singh@emailhost.com]{"entity":"email"}
+    - my email is [anju.verma@emailservice.com]{"entity":"email"}
+    - this is my email [shiv.m@example.org]{"entity":"email"}
+    - here you go, my email [pallavi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [raj.kumar@example.com]{"entity":"email"}
+    - this is my email [sneha.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rahul.singh@emailhost.com]{"entity":"email"}
+    - my email is [smita.verma@emailservice.com]{"entity":"email"}
+    - this is my email [anand.m@example.org]{"entity":"email"}
+    - here you go, my email [neha.patil@emailplatform.com]{"entity":"email"}
+    - my email is [arun.kumar@example.com]{"entity":"email"}
+    - this is my email [poonam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [vikram.singh@emailhost.com]{"entity":"email"}
+    - my email is [poonam.verma@emailservice.com]{"entity":"email"}
+    - this is my email [aniket.m@example.org]{"entity":"email"}
+    - here you go, my email [bhavana.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amit.kumar@example.com]{"entity":"email"}
+    - this is my email [ritu.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [suresh.singh@emailhost.com]{"entity":"email"}
+    - my email is [anju.verma@emailservice.com]{"entity":"email"}
+    - this is my email [shiv.m@example.org]{"entity":"email"}
+    - here you go, my email [pallavi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [manoj.kumar@example.com]{"entity":"email"}
+    - this is my email [sonam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [preeti.verma@emailservice.com]{"entity":"email"}
+    - this is my email [ashish.m@example.org]{"entity":"email"}
+    - here you go, my email [rupal.patil@emailplatform.com]{"entity":"email"}
+    - my email is [akash.kumar@example.com]{"entity":"email"}
+    - this is my email [geeta.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [vijay.singh@emailhost.com]{"entity":"email"}
+    - my email is [aarti.kumari@example.com]{"entity":"email"}
+    - this is my email [sunil.m@example.org]{"entity":"email"}
+    - here you go, my email [sakshi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amit.singh@example.com]{"entity":"email"}
+    - this is my email [anita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [deepa.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mukesh.m@example.org]{"entity":"email"}
+    - here you go, my email [priyanka.patil@emailplatform.com]{"entity":"email"}
+    - my email is [prakash.singh@example.com]{"entity":"email"}
+    - this is my email [swati.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arvind.singh@emailhost.com]{"entity":"email"}
+    - my email is [sangeeta.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mohan.m@example.org]{"entity":"email"}
+    - here you go, my email [poonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [rajesh.kumar@example.com]{"entity":"email"}
+    - this is my email [rakhi.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [shiv.singh@emailhost.com]{"entity":"email"}
+    - my email is [anita.kumari@example.com]{"entity":"email"}
+    - this is my email [vinod.m@example.org]{"entity":"email"}
+    - here you go, my email [rekha.patil@emailplatform.com]{"entity":"email"}
+    - my email is [sanjay.singh@example.com]{"entity":"email"}
+    - this is my email [anu.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [suresh.singh@emailhost.com]{"entity":"email"}
+    - my email is [priya.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [rahul.m@example.org]{"entity":"email"}
+    - here you go, my email [neetu.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amrita.singh@example.com]{"entity":"email"}
+    - this is my email [anita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [deepa.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mukesh.m@example.org]{"entity":"email"}
+    - here you go, my email [priyanka.patil@emailplatform.com]{"entity":"email"}
+    - my email is [prakash.singh@example.com]{"entity":"email"}
+    - this is my email [swati.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arvind.singh@emailhost.com]{"entity":"email"}
+    - my email is [sangeeta.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mohan.m@example.org]{"entity":"email"}
+    - here you go, my email [poonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [kishan.singh@example.com]{"entity":"email"}
+    - this is my email [nisha.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajendra.singh@emailhost.com]{"entity":"email"}
+    - my email is [manju.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [vijay.m@example.org]{"entity":"email"}
+    - here you go, my email [swati.patil@emailplatform.com]{"entity":"email"}
+    - my email is [krishna.singh@example.com]{"entity":"email"}
+    - this is my email [sarita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arjun.singh@emailhost.com]{"entity":"email"}
+    - my email is [radha.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [anil.m@example.org]{"entity":"email"}
+    - here you go, my email [preeti.patil@emailplatform.com]{"entity":"email"}
+    - my email is [kunal.singh@example.com]{"entity":"email"}
+    - this is my email [neelam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [sangeeta.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mohan.m@example.org]{"entity":"email"}
+    - here you go, my email [poonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [lalit.singh@example.com]{"entity":"email"}
+    - this is my email [anita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [priya.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [sunil.m@example.org]{"entity":"email"}
+    - here you go, my email [shivangi.patil@emailplatform.com]{"entity":"email"}
+    - my email is [lokesh.singh@example.com]{"entity":"email"}
+    - this is my email [richa.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [raj.singh@emailhost.com]{"entity":"email"}
+    - my email is [pooja.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [raj.m@example.org]{"entity":"email"}
+    - here you go, my email [kavita.patil@emailplatform.com]{"entity":"email"}
+    - my email is [gopal.singh@example.com]{"entity":"email"}
+    - this is my email [jyoti.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [kamal.singh@emailhost.com]{"entity":"email"}
+    - my email is [monika.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [deepak.m@example.org]{"entity":"email"}
+    - here you go, my email [sonali.patil@emailplatform.com]{"entity":"email"}
+    - my email is [rajesh.singh@example.com]{"entity":"email"}
+    - this is my email [sonam.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [rajesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [preeti.verma@emailservice.com]{"entity":"email"}
+    - this is my email [ashish.m@example.org]{"entity":"email"}
+    - here you go, my email [rupal.patil@emailplatform.com]{"entity":"email"}
+    - my email is [santosh.singh@example.com]{"entity":"email"}
+    - this is my email [anu.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [suresh.singh@emailhost.com]{"entity":"email"}
+    - my email is [priya.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [rahul.m@example.org]{"entity":"email"}
+    - here you go, my email [neetu.patil@emailplatform.com]{"entity":"email"}
+    - my email is [amrita.singh@example.com]{"entity":"email"}
+    - this is my email [anita.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [ramesh.singh@emailhost.com]{"entity":"email"}
+    - my email is [deepa.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mukesh.m@example.org]{"entity":"email"}
+    - here you go, my email [priyanka.patil@emailplatform.com]{"entity":"email"}
+    - my email is [prakash.singh@example.com]{"entity":"email"}
+    - this is my email [swati.sharma@emailprovider.com]{"entity":"email"}
+    - here you go [arvind.singh@emailhost.com]{"entity":"email"}
+    - my email is [sangeeta.kumari@emailservice.com]{"entity":"email"}
+    - this is my email [mohan.m@example.org]{"entity":"email"}
+    - here you go, my email [poonam.patil@emailplatform.com]{"entity":"email"}
+    - my email is [rajesh.kumar@example.com]{"entity":"email"}
+    - this is my email [rakhi.sharma@emailprovider.com]{"entity":"email"}
+    - my name is [Aarav Patel]{"entity":"name"}
+    - this is [Aisha Gupta]{"entity":"name"}
+    - known as [Akshay Sharma]{"entity":"name"}
+    - I'm called [Ananya Singh]{"entity":"name"}
+    - my name is [Arjun Mehra]{"entity":"name"}
+    - this is [Bhavya Kapoor]{"entity":"name"}
+    - known as [Chetan Reddy]{"entity":"name"}
+    - I'm called [Deepika Khanna]{"entity":"name"}
+    - my name is [Dev Patel]{"entity":"name"}
+    - I'm called [Esha Yadav]{"entity":"name"}
+    - here's [Gaurav Verma]{"entity":"name"}
+    - known as [Ishita Menon]{"entity":"name"}
+    - my name is [Jai Kapoor]{"entity":"name"}
+    - I'm called [Kavya Joshi]{"entity":"name"}
+    - here's [Lakshay Kumar]{"entity":"name"}
+    - my name is [Mira Kapoor]{"entity":"name"}
+    - known as [Nandini Gupta]{"entity":"name"}
+    - I'm called [Nirav Sharma]{"entity":"name"}
+    - this is [Ojasvi Singh]{"entity":"name"}
+    - my name is [Parth Verma]{"entity":"name"}
+    - here's [Pooja Yadav]{"entity":"name"}
+    - my name is [Rahul Kapoor]{"entity":"name"}
+    - I'm called [Riya Mehra]{"entity":"name"}
+    - this is [Sameer Reddy]{"entity":"name"}
+    - here's [Shruti Khanna]{"entity":"name"}
+    - my name is [Siddharth Patel]{"entity":"name"}
+    - I'm called [Tanvi Menon]{"entity":"name"}
+    - known as [Ujjwal Kumar]{"entity":"name"}
+    - this is [Vanya Kapoor]{"entity":"name"}
+    - my name is [Vedant Sharma]{"entity":"name"}
+    - here's [Yash Gupta]{"entity":"name"}
+    - known as [Zara Mehra]{"entity":"name"}
+    - I'm called [Aarav Singh]{"entity":"name"}
+    - my name is [Aisha Reddy]{"entity":"name"}
+    - this is [Akshay Verma]{"entity":"name"}
+    - here's [Bilal Khan]{"entity":"name"}
+    - known as [Sofia Ahmed]{"entity":"name"}
+    - I'm called [Armaan Ali]{"entity":"name"}
+    - my name is [Zainab Khan]{"entity":"name"}
+    - this is [Devika Nair]{"entity":"name"}
+    - here's [Rohan Patel]{"entity":"name"}
+    - known as [Lakshmi Sharma]{"entity":"name"}
+    - I'm called [Amit Das]{"entity":"name"}
+    - my name is [Varun Iyer]{"entity":"name"}
+    - this is [Sonia Chatterjee]{"entity":"name"}
+    - known as [Karan Reddy]{"entity":"name"}
+    - I'm called [Ayesha Khan]{"entity":"name"}
+    - here's [Ravi Kumar]{"entity":"name"}
+    - my name is [Jasleen Kaur]{"entity":"name"}
+    - this is [Harpreet Singh]{"entity":"name"}
+    - here's [Simranjeet Kaur]{"entity":"name"}
+    - I'm called [Jasmine Malik]{"entity":"name"}
+    - here's [Rajiv Kapoor]{"entity":"name"}
+    - my name is [Priya Jain]{"entity":"name"}
+    - this is [Anil Gupta]{"entity":"name"}
+    - here's [Neha Shah]{"entity":"name"}
+    - I'm called [Pranav Jain]{"entity":"name"}
+    - my name is [Maya Patel]{"entity":"name"}
+    - this is [Rahul Mehta]{"entity":"name"}
+    - here's [Anika Desai]{"entity":"name"}
+    - I'm called [Kabir Singh]{"entity":"name"}
+    - my name is [Nisha Verma]{"entity":"name"}
+    - this is [Rohan Arora]{"entity":"name"}
+    - here's [Neha Sharma]{"entity":"name"}
+    - I'm called [Aman Kapoor]{"entity":"name"}
+    - here's [Simran Ahuja]{"entity":"name"}
+    - my name is [Gurbinder Singh]{"entity":"name"}
 
 - intent: goodbye
   examples: |
