@@ -1,0 +1,117 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: inform
+  examples: |
+    - my email is [john.doe@example.com]{"entity":"email"}
+    - this is my email [jane.smith@emailprovider.com]{"entity":"email"}
+    - here you go [sam.jones@emailhost.com]{"entity":"email"}
+    - my email is [alexander.j@emailservice.com]{"entity":"email"}
+    - this is my email [smith.m@example.org]{"entity":"email"}
+    - here you go, my email [sara.p@emailplatform.com]{"entity":"email"}
+    - my email is [peter.k@emailprovider.com]{"entity":"email"}
+    - here you go [laura.w@emailservice.com]{"entity":"email"}
+    - my email is [emily.white@example.net]{"entity":"email"}
+    - this is my email [david.c@emailhost.com]{"entity":"email"}
+    - my title is [Professor Smith]{"entity":"name"}
+    - behold, the great [Victoria Monroe]{"entity":"name"}
+    - introducing the amazing [Oliver Foster]{"entity":"name"}
+    - this is [Drake Thompson]{"entity":"name"} speaking
+    - presenting the one and only [Penelope Foster]{"entity":"name"}
+    - I'm often called [Lucas Evans]{"entity":"name"}
+    - known as [Sophia Richardson]{"entity":"name"}, pleased to meet you
+    - here's [Ethan Turner]{"entity":"name"} for your consideration
+    - they call me [Scarlett Adams]{"entity":"name"} around here
+    - meet the talented [Gabriel Martin]{"entity":"name"}
+    - presenting the extraordinary [Hannah Phillips]{"entity":"name"}
+    - my name, [Oscar Lopez]{"entity":"name"}, is not easily forgotten
+    - this is [Ruby Allen]{"entity":"name"} - remember the name!
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
