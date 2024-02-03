@@ -1,4 +1,4 @@
-# SymptoSmart - AI-Powered Health Assistant
+# SymptoSmart (Submission for CodeForge24)
 
 ## Project Details
 
@@ -14,7 +14,6 @@ HealthBot is an AI-powered health assistant designed to streamline user interact
 - [Tech Stack](#tech-stack)
 - [Flow Chart](#flow-chart)
 - [Getting Started](#getting-started)
-- [License](#license)
 
 ## User Interaction
 
@@ -49,7 +48,9 @@ HealthBot's GUI is built using the MERN stack, incorporating MongoDB for chat de
 
 ## Flow Chart
 
-![Flow Chart]([https://imgur.com/a/tPIBa4g])
+<p>
+<img src="https://i.imgur.com/jRLPUT5.png" width="580" height="280" hspace="10"> 
+</p>
 
 The user interacts with the frontend through a chat interface, sending messages to the Rasa bot via a Flask API. The bot uses natural language understanding (NLU) to generate responses and executes Rasa actions. The backend stores chat history, allowing users to access past conversations. Formatted responses from Rasa are relayed to the frontend for display, creating a seamless conversational experience with a history log.
 
@@ -58,3 +59,11 @@ The user interacts with the frontend through a chat interface, sending messages 
 1. Clone the repository: `git clone https://github.com/your-repo.git`
 2. Install dependencies: `npm install`
 3. Start the application: `npm start`
+
+## Contributors:
+
+Team Name: UFOders
+
+* [Mirga Farhaan Baig](https://github.com/fourhaan)
+* [Shreyansh Karamtot](https://github.com/Fire-guy)
+* [Dhruv Rastogi](https://github.com/DHRUVRastogi-123)
