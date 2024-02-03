@@ -1,5 +1,3 @@
-version: "3.1"
-
 rules:
 
 - rule: activate user details form loop
@@ -17,6 +15,24 @@ rules:
   - slot_was_set:
     - requested_slot: null
   - action: action_send_data
+
+- rule: fill otp form after user details form
+  condition:
+  - active_loop: null
+  steps:
+  - intent: getotp
+  - action: otp_form
+  - active_loop: otp_form
+
+- rule: send the otp 
+  condition:
+  - active_loop: otp_form
+  steps:
+  - action: otp_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_valid_otp
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
