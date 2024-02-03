@@ -452,6 +452,97 @@ nlu:
     - I'm called [Aman Kapoor]{"entity":"name"}
     - here's [Simran Ahuja]{"entity":"name"}
     - my name is [Gurbinder Singh]{"entity":"name"}
+    - [Gurbinder Singh]{"entity":"name"}
+    - [Rahul Sharma]{"entity":"name"}
+    - [Priya Patel]{"entity":"name"}
+    - [Vikram Singh]{"entity":"name"}
+    - [Neha Kapoor]{"entity":"name"}
+    - [Karan Gupta]{"entity":"name"}
+    - [Ananya Reddy]{"entity":"name"}
+    - [Amit Kumar]{"entity":"name"}
+    - [Sanya Verma]{"entity":"name"}
+    - [Raj Malhotra]{"entity":"name"}
+    - [Pooja Thakur]{"entity":"name"}
+    - [Arjun Mehta]{"entity":"name"}
+    - [Nisha Bansal]{"entity":"name"}
+    - [Aryan Sharma]{"entity":"name"}
+    - [Deepika Singh]{"entity":"name"}
+    - [Vivek Joshi]{"entity":"name"}
+    - [Shreya Malik]{"entity":"name"}
+    - [Aditya Chopra]{"entity":"name"}
+    - [Kavita Desai]{"entity":"name"}
+    - [Rohit Verma]{"entity":"name"}
+    - [Anjali Khanna]{"entity":"name"}
+    - [Siddharth Kapoor]{"entity":"name"}
+    - [Mansi Agarwal]{"entity":"name"}
+    - [Prateek Tiwari]{"entity":"name"}
+    - [Aishwarya Reddy]{"entity":"name"}
+    - [Rohan Bansal]{"entity":"name"}
+    - [Divya Sharma]{"entity":"name"}
+    - [Rajat Gupta]{"entity":"name"}
+    - [Anika Mehra]{"entity":"name"}
+    - [Vishal Singh]{"entity":"name"}
+    - [Tanvi Patel]{"entity":"name"}
+    - [Kiran Ahmed]{"entity":"name"}
+    - [Aisha Khan]{"entity":"name"}
+    - [Ravi Thomas]{"entity":"name"}
+    - [Anita Patel]{"entity":"name"}
+    - [Rahul Khan]{"entity":"name"}
+    - [Maya Mathews]{"entity":"name"}
+    - [Amit Kumar]{"entity":"name"}
+    - [Neha Joseph]{"entity":"name"}
+    - [Raj Khan]{"entity":"name"}
+    - [Pooja Thomas]{"entity":"name"}
+    - [Arjun Ahmed]{"entity":"name"}
+    - [Nisha Mathews]{"entity":"name"}
+    - [Aryan Ali]{"entity":"name"}
+    - [Deepika Joseph]{"entity":"name"}
+    - [Vivek Ahmed]{"entity":"name"}
+    - [Shreya Mathews]{"entity":"name"}
+    - [Aditya Thomas]{"entity":"name"}
+    - [Kavita Ali]{"entity":"name"}
+    - [Rohit Mathews]{"entity":"name"}
+    - [Anjali Ahmed]{"entity":"name"}
+    - [Siddharth Ali]{"entity":"name"}
+    - [Mansi Thomas]{"entity":"name"}
+    - [Prateek Ahmed]{"entity":"name"}
+    - [Aishwarya Mathews]{"entity":"name"}
+    - [Rohan Ali]{"entity":"name"}
+    - [Divya Thomas]{"entity":"name"}
+    - [Rajat Ahmed]{"entity":"name"}
+    - [Anika Mathews]{"entity":"name"}
+    - [Vishal Ali]{"entity":"name"}
+    - [Tanvi Thomas]{"entity":"name"}
+    - [Aarif]{"entity":"name"}
+    - [Fatima]{"entity":"name"}
+    - [Aditya]{"entity":"name"}
+    - [Anaya]{"entity":"name"}
+    - [Rizwan]{"entity":"name"}
+    - [Sofia]{"entity":"name"}
+    - [Armaan]{"entity":"name"}
+    - [Nadia]{"entity":"name"}
+    - [Ishaan]{"entity":"name"}
+    - [Zara]{"entity":"name"}
+    - [Kabir]{"entity":"name"}
+    - [Ayesha]{"entity":"name"}
+    - [Zayan]{"entity":"name"}
+    - [Aleena]{"entity":"name"}
+    - [Rayyan]{"entity":"name"}
+    - [Inaya]{"entity":"name"}
+    - [Aarav]{"entity":"name"}
+    - [Sana]{"entity":"name"}
+    - [Rohan]{"entity":"name"}
+    - [Amira]{"entity":"name"}
+    - [Sami]{"entity":"name"}
+    - [Mariam]{"entity":"name"}
+    - [Yusuf]{"entity":"name"}
+    - [Aisha]{"entity":"name"}
+    - [Rehan]{"entity":"name"}
+    - [Alia]{"entity":"name"}
+    - [Zain]{"entity":"name"}
+    - [Amina]{"entity":"name"}
+    - [Vihaan]{"entity":"name"}
+    - [Aaliyah]{"entity":"name"}
 
 - intent: getotp
   examples: |
@@ -499,6 +590,9 @@ nlu:
     - Confirm with code [778899]{"entity":"otp"}
     - OTP [990011]{"entity":"otp"} for secure access
     - Verification code: [223344]{"entity":"otp"}
+    - [223344]{"entity":"otp"}
+    - [778994]{"entity":"otp"}
+    - [099343]{"entity":"otp"}
 
 - intent: goodbye
   examples: |
