@@ -56,7 +56,7 @@ The user interacts with the frontend through a chat interface, sending messages 
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-repo.git`
+1. Clone the repository: `git clone https://github.com/Fire-guy/HealthHackathon.git`
 2. Install dependencies: `npm install`
 3. Start the application: `npm start`
 
