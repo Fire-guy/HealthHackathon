@@ -453,6 +453,53 @@ nlu:
     - here's [Simran Ahuja]{"entity":"name"}
     - my name is [Gurbinder Singh]{"entity":"name"}
 
+- intent: getotp
+  examples: |
+    - My OTP is [123456]{"entity":"otp"}
+    - The OTP I received is [654321]{"entity":"otp"}
+    - I got an OTP: [987654]{"entity":"otp"}
+    - [456789]{"entity":"otp"} is my OTP code
+    - Here is my OTP: [111222]{"entity":"otp"}
+    - Received OTP [333444]{"entity":"otp"} just now
+    - The code [555666]{"entity":"otp"} is my OTP
+    - I have [777888]{"entity":"otp"} as my OTP
+    - [999000]{"entity":"otp"} is the OTP sent to me
+    - Please verify with OTP [112233]{"entity":"otp"}
+    - I'm providing my OTP: [445566]{"entity":"otp"}
+    - [778899]{"entity":"otp"} is the code I received
+    - Confirm with OTP [112233]{"entity":"otp"}
+    - [445566]{"entity":"otp"} is my OTP for verification
+    - Just got an OTP: [990011]{"entity":"otp"}
+    - Verify with code [223344]{"entity":"otp"}
+    - The OTP sent to me is [556677]{"entity":"otp"}
+    - Using OTP [889900]{"entity":"otp"} for authentication
+    - [112233]{"entity":"otp"} is the code I received
+    - [445566]{"entity":"otp"} is my one-time password
+    - The received OTP is [778899]{"entity":"otp"}
+    - [990011]{"entity":"otp"} is my authentication code
+    - My OTP code is [223344]{"entity":"otp"}
+    - Received [556677]{"entity":"otp"} for verification
+    - Confirming with OTP [889900]{"entity":"otp"}
+    - [112233]{"entity":"otp"} is my current OTP
+    - OTP for validation: [445566]{"entity":"otp"}
+    - [778899]{"entity":"otp"} is the one-time code
+    - [990011]{"entity":"otp"} received for authentication
+    - [223344]{"entity":"otp"} is my verification code
+    - Authentication code: [556677]{"entity":"otp"}
+    - Verify with OTP [889900]{"entity":"otp"}
+    - [112233]{"entity":"otp"} is my temporary password
+    - [445566]{"entity":"otp"} received for validation
+    - Confirming with OTP [778899]{"entity":"otp"}
+    - [990011]{"entity":"otp"} is my secure code
+    - [223344]{"entity":"otp"} is the code for verification
+    - Just received OTP [556677]{"entity":"otp"}
+    - [889900]{"entity":"otp"} is my authentication OTP
+    - My current OTP is [112233]{"entity":"otp"}
+    - [445566]{"entity":"otp"} is the OTP for confirmation
+    - Confirm with code [778899]{"entity":"otp"}
+    - OTP [990011]{"entity":"otp"} for secure access
+    - Verification code: [223344]{"entity":"otp"}
+
 - intent: goodbye
   examples: |
     - cu
