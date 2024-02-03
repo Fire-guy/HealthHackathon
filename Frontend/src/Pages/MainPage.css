@@ -1,0 +1,18 @@
+.main-page-container {
+    display: flex;
+    height: 100vh;
+}
+
+.mainpage-navbar-container {
+    flex: 0 0 25vw;
+    border: 2px solid black;
+    height: 100vh;
+}
+
+.mainpage-chatarea-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    height: 100vh;
+}

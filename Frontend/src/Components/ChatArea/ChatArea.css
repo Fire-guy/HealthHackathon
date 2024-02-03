@@ -1,0 +1,83 @@
+.react-chat-area {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.messages {
+    margin-top: 50px;
+    height: 75vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    z-index: 39;
+}
+
+.input-container {
+    position: absolute;
+    bottom: 5vh;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    gap: 10px;
+    z-index: 38;
+}
+
+.input-container textarea {
+    margin: 0;
+    padding: 0;
+    border: 2px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    width: 50vw;
+}
+
+.input-container span {
+    border: 2px solid transparent;
+    border-radius: 100px;
+    background-color: aqua;
+    padding: 5px 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-container span:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input-container span:active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.bot, .user {
+    width: 70vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.bot span, .user span {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.bot {
+    align-self: left;
+    display: flex;
+    justify-content: left;
+}
+
+.user {
+    align-self: right;
+    display: flex;
+    justify-content: right;
+}

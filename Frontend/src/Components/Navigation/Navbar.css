@@ -1,0 +1,52 @@
+.react-navbar {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.react-navbar-logo img {
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    height: 50px;
+    width : 50px;
+}
+
+.react-navbar-logo h1 {
+    font-size: 25px;
+    position: absolute;
+    top: 3vh;
+    left: calc(2vw + 70px);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.react-navbar h2 {
+    position: absolute;
+    top: 70px;
+    left: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.react-navbar ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 10px;
+    overflow-y: scroll;
+    height: 80vh;
+    position: absolute;
+    top: 100px;
+    left: 2vw;
+    font-size: 18px;
+}
+
+.react-navbar ul li {
+    list-style-type: none;
+    width: 20vw;
+    border: 1px solid #666;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
