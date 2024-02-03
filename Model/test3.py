@@ -7,7 +7,7 @@ import spacy
 
 
 # Load the Excel file into a DataFrame
-excel_file_path = 'diseases.xlsx'
+excel_file_path = 'diseases2.xlsx'
 df = pd.read_excel(excel_file_path)
 
 # Extract 'disease' and symptoms columns
