@@ -3,6 +3,7 @@ version: "3.1"
 intents:
   - greet
   - goodbye
+  - getotp
   - affirm
   - deny
   - inform
@@ -13,6 +14,7 @@ intents:
 entities:
   - name
   - email
+  - otp
 
 slots:
   name:
@@ -27,12 +29,21 @@ slots:
     mappings:
     - type: from_entity
       entity: email
+  otp:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: otp
 
 forms:
   user_details_form:
     required_slots:
       - name
       - email
+  otp_form:
+    required_slots:
+      - otp
 
 responses:
   utter_greet:
@@ -47,6 +58,9 @@ responses:
 
   utter_ask_email:
   - text: "What is your email address?"
+
+  utter_ask_otp:
+  - text: "An OTP has been sent to your email address, kindly enter the 6 digit OTP"
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -66,3 +80,4 @@ session_config:
 
 actions:
 - action_send_data
+- action_valid_otp
