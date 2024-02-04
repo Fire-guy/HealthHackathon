@@ -7,14 +7,124 @@ intents:
   - affirm
   - deny
   - inform
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - fallback
+  - tell_me_symptom_Breath:
+      use_entities:
+        - Breath
+  - tell_me_symptom_Taste:
+      use_entities:
+        - Taste
+  - tell_me_symptom_Fever:
+      use_entities:
+        - Fever
+  - tell_me_symptom_ChestPain:
+      use_entities:
+        - ChestPain
+  - tell_me_symptom_JointPainSwelling:
+      use_entities:
+        - JointPainSwelling
+  - tell_me_symptom_VisionProblem:
+      use_entities:
+        - VisionProblem
+  - tell_me_symptom_Nosebleeds:
+      use_entities:
+        - Nosebleeds
+  - tell_me_symptom_MemoryLoss:
+      use_entities:
+        - MemoryLoss
+  - tell_me_symptom_DifficultyProblemSolving:
+      use_entities:
+        - ProblemSolving
+  - tell_me_symptom_Disorientation:
+      use_entities:
+        - Disorientation
+  - tell_me_symptom_MorningStiffness:
+      use_entities:
+        - MorningStiffness
+  - tell_me_symptom_LossInHeight:
+      use_entities:
+        - LossInHeight
+  - tell_me_symptom_FragileBones:
+      use_entities:
+        - FragileBones
+  - tell_me_symptom_SkinColorLoss:
+      use_entities:
+        - SkinColorLoss
+  - tell_me_symptom_GrayingHair:
+      use_entities:
+        - GrayingHair
+  - tell_me_symptom_Sunburn:
+      use_entities:
+        - Sunburn
+  - tell_me_symptom_sore_throat:
+      use_entities:
+        - sore throat
+  - tell_me_symptom_WateryStools:
+      use_entities:
+        - WateryStools
+  - tell_me_symptom_BodyAche:
+      use_entities:
+        - BodyAche
+  - tell_me_symptom_Cough:
+      use_entities:
+        - Cough
+  - tell_me_symptom_Frequent_Urination:
+      use_entities:
+        - Frequent_Urination
+  - tell_me_symptom_Excessive_Thirst:
+      use_entities:
+        - Excessive_Thirst
+  - tell_me_symptom_Sensitivity_to_Light:
+      use_entities:
+        - Sensitivity_to_Light
+  - tell_me_symptom_Headache:
+      use_entities:
+        - Headache
+  - tell_me_symptom_Stomachache:
+      use_entities:
+        - Stomachache
+  - tell_me_symptom_BackPain:
+      use_entities:
+        - BackPain
+  - tell_me_symptom_Weakness:
+      use_entities:
+        - Weakness
+  - tell_me_symptom_Wheezing:
+      use_entities:
+        - Wheezing
 
 entities:
   - name
   - email
   - otp
+  - Breath
+  - Taste
+  - Fever
+  - ChestPain
+  - JointPainSwelling
+  - VisionProblem
+  - Nosebleeds
+  - MemoryLoss
+  - ProblemSolving
+  - Disorientation
+  - LossInHeight
+  - FragileBones
+  - SkinColorLoss
+  - GrayingHair
+  - Sunburn
+  - sore throat
+  - WateryStools
+  - BodyAche
+  - Cough
+  - Frequent_Urination
+  - Excessive_Thirst
+  - Sensitivity_to_Light
+  - Headache
+  - Stomachache
+  - BackPain
+  - Weakness
+  - Wheezing
+  - MorningStiffness
 
 slots:
   name:
@@ -74,6 +184,12 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_ask_another_symptom:
+  - text: "Do you have any other symptom you'd like to share? Please type 'NO' if no other symptom! (Max. 3 symptoms)"
+  
+  utter_default:
+  - text: "Currently this is out of bot's capability."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -81,3 +197,5 @@ session_config:
 actions:
 - action_send_data
 - action_valid_otp
+- action_send_symptom
+- action_diagnose
