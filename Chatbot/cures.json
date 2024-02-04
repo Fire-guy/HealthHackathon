@@ -1,0 +1,47 @@
+{
+    "diseases": {
+      "Influenza (Flu)": {
+        "cures": ["Rest and stay hydrated", "Antiviral medications", "Annual flu vaccination"]
+      },
+      "COVID-19": {
+        "cures": ["Follow public health guidelines", "Supportive care", "Antiviral medications"]
+      },
+      "Pneumonia": {
+        "cures": ["Antibiotics for bacterial pneumonia", "Antiviral medications for viral pneumonia", "Supportive care"]
+      },
+      "Type 2 Diabetes": {
+        "cures": ["Lifestyle changes", "Medications", "Insulin therapy"]
+      },
+      "Hypertension": {
+        "cures": ["Lifestyle modifications", "Medications"]
+      },
+      "Asthma": {
+        "cures": ["Inhaled bronchodilators", "Inhaled corticosteroids", "Allergy management", "Avoiding triggers"]
+      },
+      "Migraine": {
+        "cures": ["Pain relievers", "Triptans", "Preventive medications", "Identifying and avoiding triggers"]
+      },
+      "Rheumatoid Arthritis": {
+        "cures": ["Disease-modifying antirheumatic drugs (DMARDs)", "Nonsteroidal anti-inflammatory drugs (NSAIDs)", "Corticosteroids", "Physical therapy"]
+      },
+      "Alzheimer's Disease": {
+        "cures": ["Medications for symptom management", "Supportive care", "Cognitive therapies"]
+      },
+      "Osteoporosis": {
+        "cures": ["Calcium and vitamin D supplements", "Medications", "Weight-bearing exercises"]
+      },
+      "Vitiligo": {
+        "cures": ["Topical corticosteroids", "Phototherapy", "Depigmentation in severe cases"]
+      },
+      "Diarrhea": {
+        "cures": ["Oral rehydration solutions", "Antidiarrheal medications", "Identifying and treating the underlying cause"]
+      },
+      "Typhoid": {
+        "cures": ["Antibiotics", "Supportive care"]
+      },
+      "Jaundice": {
+        "cures": ["Treating the underlying cause", "Rest and hydration"]
+      }
+    }
+  }
+  
