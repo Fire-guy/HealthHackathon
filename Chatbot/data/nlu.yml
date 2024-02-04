@@ -594,6 +594,1148 @@ nlu:
     - [778994]{"entity":"otp"}
     - [099343]{"entity":"otp"}
 
+- intent: tell_me_symptom_Breath
+  examples: |
+    - I am having [difficulty in breathing]{"entity":"Breath"}.
+    - I'm experiencing [shortness of breath]{"entity":"Breath"}.
+    - I have [breathing issues]{"entity":"Breath"}.
+    - It's hard for me to [catch my breath]{"entity":"Breath"}.
+    - I can't [breathe properly]{"entity":"Breath"}.
+    - [Breathing is a struggle]{"entity":"Breath"}.
+    - I feel like I'm [gasping for air]{"entity":"Breath"}.
+    - I'm wheezing, and it's [difficult to breathe]{"entity":"Breath"}.
+    - My [breath is labored]{"entity":"Breath"}.
+    - [Short of breath]{"entity":"Breath"} here.
+    - I'm having [trouble getting air]{"entity":"Breath"}.
+    - [Breathing difficulties]{"entity":"Breath"} are bothering me.
+    - I can't take a [deep breath]{"entity":"Breath"}.
+    - [Lack of breath]{"entity":"Breath"} is a problem.
+    - I'm [struggling to inhale]{"entity":"Breath"}.
+    - I have [breathlessness]{"entity":"Breath"}.
+    - It's like I'm [out of breath]{"entity":"Breath"}.
+    - [Breathing problems]{"entity":"Breath"} are concerning me.
+    - I'm panting and [out of air]{"entity":"Breath"}.
+    - I feel [breath-deprived]{"entity":"Breath"}.
+    - [Gasping for breath]{"entity":"Breath"} is what's happening.
+    - I've included synonym like "shortness of breath" and other phrases that convey difficulties in breathing. Let me know if you need more examples or if there's anything else I can assist you with.
+
+- synonym: Breath
+  examples: |
+    - Shortness of breath
+    - Breathing issues
+    - Catch my breath
+    - Breathe properly
+    - Breathing is a struggle
+    - Gasping for air
+    - Difficult to breathe
+    - Breath is labored
+    - Short of breath
+    - Trouble getting air
+    - Breathing difficulties
+    - Deep breath
+    - Lack of breath
+    - Struggling to inhale
+    - Breathlessness
+    - Out of breath
+    - Breathing problems
+    - Out of air
+    - Breath-deprived
+    - Gasping for breath
+
+- intent: tell_me_symptom_Taste
+  examples: |
+    - I am experiencing [loss of taste]{"entity":"Taste"}.
+    - I've lost my [sense of taste]{"entity":"Taste"}.
+    - Food tastes [bland]{"entity":"Taste"} to me.
+    - I can't [taste anything]{"entity":"Taste"}.
+    - [Taste is gone]{"entity":"Taste"} for me.
+    - I feel like I'm [tasteless]{"entity":"Taste"}.
+    - I'm unable to [taste flavors]{"entity":"Taste"}.
+    - [Flavor is missing]{"entity":"Taste"} from everything I eat.
+    - My [taste buds are not working]{"entity":"Taste"}.
+    - I'm [losing the taste of food]{"entity":"Taste"}.
+    - [Tasteless meals]{"entity":"Taste"} are all I get.
+    - I'm [missing out on flavors]{"entity":"Taste"}.
+    - Food has [no taste]{"entity":"Taste"} to me.
+    - I can't [detect any flavors]{"entity":"Taste"}.
+    - [Tastelessness]{"entity":"Taste"} is what I'm experiencing.
+    - I can't [savor any flavors]{"entity":"Taste"}.
+    - It's like I'm [taste-blind]{"entity":"Taste"}.
+    - [Taste problems]{"entity":"Taste"} are concerning me.
+    - I'm [taste-deprived]{"entity":"Taste"}.
+    - [Missing taste]{"entity":"Taste"} is what's happening.
+
+- synonym: Taste
+  examples: |
+    - Loss of taste
+    - Sense of taste
+    - Bland taste
+    - Tasteless
+    - Taste flavors
+    - Flavor is missing
+    - Taste buds not working
+    - Losing the taste of food
+    - Tasteless meals
+    - Missing out on flavors
+    - No taste
+    - Detecting flavors
+    - Tastelessness
+    - Savoring flavors
+    - Taste-blind
+    - Taste problems
+    - Taste-deprived
+    - Missing taste
+
+- intent: tell_me_symptom_Fever
+  examples: |
+    - I'm experiencing [fever]{"entity":"Fever"}.
+    - My body temperature is elevated, and I suspect I have [a fever]{"entity":"Fever"}.
+    - I feel really [feverish]{"entity":"Fever"}.
+    - Lately, I've been having [fever symptoms]{"entity":"Fever"}.
+    - Can you help me with my [high body temperature]{"entity":"Fever"}?
+    - I'm running [a fever]{"entity":"Fever"}, and it's making me uncomfortable.
+    - I need advice on dealing with this persistent [fever]{"entity":"Fever"}.
+    - My [fever]{"entity":"Fever"} is causing me distress.
+    - I have [fever signs]{"entity":"Fever"}.
+    - How can I relieve my [feverish state]{"entity":"Fever"}?
+    - It feels like I've had this [raised body temperature]{"entity":"Fever"} for days.
+    - I'm looking for remedies for my [feverish condition]{"entity":"Fever"}.
+    - Do you have any suggestions for dealing with a sudden [fever]{"entity":"Fever"}?
+    - This [feverish state]{"entity":"Fever"} is unbearable.
+    - My body temperature is high, and I suspect it's [a fever]{"entity":"Fever"}.
+    - My [fever]{"entity":"Fever"} just won't go away.
+    - How do I get rid of this persistent [feverish state]{"entity":"Fever"}?
+    - I've tried everything to relieve my [fever symptoms]{"entity":"Fever"}.
+    - What can I do about my [running a fever]{"entity":"Fever"}?
+
+- synonym: Fever
+  examples: |
+    - fever
+    - high temperature
+    - body temperature
+    - feverish
+    - fever symptoms
+    - feverish condition
+    - raised body temperature
+    - feverish state
+    - having a fever
+    - temperature is high
+    - fever signs
+    - fever indicators
+    - running a fever
+    - feverish symptoms
+    - feverish state
+
+- intent: tell_me_symptom_ChestPain
+  examples: |
+    - I am having [chest pain]{"entity":"ChestPain"}.
+    - I'm experiencing [pain in my chest]{"entity":"ChestPain"}.
+    - I have [discomfort in my chest]{"entity":"ChestPain"}.
+    - It hurts in my [chest]{"entity":"ChestPain"}.
+    - I can't [bear the chest pain]{"entity":"ChestPain"}.
+    - [Chest pain]{"entity":"ChestPain"} is troubling me.
+    - I feel like I'm [suffering from chest pain]{"entity":"ChestPain"}.
+    - My [chest hurts]{"entity":"ChestPain"}.
+    - [Pain in the chest]{"entity":"ChestPain"} here.
+    - I'm having [difficulty due to chest pain]{"entity":"ChestPain"}.
+    - [Chest discomfort]{"entity":"ChestPain"} is bothering me.
+    - I can't [tolerate this chest pain]{"entity":"ChestPain"}.
+    - [Chest pain problems]{"entity":"ChestPain"} are concerning me.
+    - I'm [in pain in my chest]{"entity":"ChestPain"}.
+    - I have [chest pain and discomfort]{"entity":"ChestPain"}.
+    - It's like I'm [experiencing chest pain]{"entity":"ChestPain"}.
+    - [Pain in the chest]{"entity":"ChestPain"} is what's happening.
+
+- synonym: ChestPain
+  examples: |
+    - Pain in the chest
+    - Discomfort in the chest
+    - Hurt in the chest
+    - Bear the chest pain
+    - Chest pain troubles
+    - Suffering from chest pain
+    - Chest hurts
+    - Pain in the chest
+    - Difficulty due to chest pain
+    - Chest discomfort
+    - Tolerate this chest pain
+    - Chest pain problems
+    - In pain in the chest
+    - Chest pain and discomfort
+    - Experiencing chest pain
+    - Pain in the chest
+
+- intent: tell_me_symptom_JointPainSwelling
+  examples: |
+    - I am having [joint pain]{"entity":"JointPainSwelling"}.
+    - I'm experiencing [pain in my joints]{"entity":"JointPainSwelling"}.
+    - I have [aching joints]{"entity":"JointPainSwelling"}.
+    - It's hard for me to [move my joints]{"entity":"JointPainSwelling"}.
+    - I can't [bear the joint pain]{"entity":"JointPainSwelling"}.
+    - [Joint pain]{"entity":"JointPainSwelling"} is troubling me.
+    - I feel like I'm [suffering from joint pain]{"entity":"JointPainSwelling"}.
+    - My [joints ache]{"entity":"JointPainSwelling"}.
+    - [Pain in the joints]{"entity":"JointPainSwelling"} here.
+    - I'm having [trouble moving due to joint pain]{"entity":"JointPainSwelling"}.
+    - [Joint discomfort]{"entity":"JointPainSwelling"} is bothering me.
+    - I can't [tolerate this joint pain]{"entity":"JointPainSwelling"}.
+    - [Joint pain problems]{"entity":"JointPainSwelling"} are concerning me.
+    - I'm [in pain in my joints]{"entity":"JointPainSwelling"}.
+    - I have [joint pain and discomfort]{"entity":"JointPainSwelling"}.
+    - It's like I'm [experiencing joint pain]{"entity":"JointPainSwelling"}.
+    - [Pain in the joints]{"entity":"JointPainSwelling"} is what's happening.
+    - I've included synonym like "aching joints" and other phrases that convey joint pain and discomfort. Let me know if you need more examples or if there's anything else I can assist you with.
+
+- synonym: JointPainSwelling
+  examples: |
+    - Pain in the joints
+    - Aching joints
+    - Move my joints
+    - Bear the joint pain
+    - Joint pain troubles
+    - Suffering from joint pain
+    - Joints ache
+    - Pain in the joints
+    - Trouble moving due to joint pain
+    - Joint discomfort
+    - Tolerate this joint pain
+    - Joint pain problems
+    - In pain in my joints
+    - Joint pain and discomfort
+    - Experiencing joint pain
+    - Pain in the joints
+
+- intent: tell_me_symptom_VisionProblem
+  examples: |
+    - I am having [vision problems]{"entity":"VisionProblem"}.
+    - I'm experiencing [blurry vision]{"entity":"VisionProblem"}.
+    - I have [difficulty seeing]{"entity":"VisionProblem"}.
+    - It's hard for me to [focus my eyes]{"entity":"VisionProblem"}.
+    - I can't [see properly]{"entity":"VisionProblem"}.
+    - [Vision is a struggle]{"entity":"VisionProblem"}.
+    - I feel like I'm [struggling with my eyesight]{"entity":"VisionProblem"}.
+    - I'm squinting, and it's [difficult to see]{"entity":"VisionProblem"}.
+    - My [sight is impaired]{"entity":"VisionProblem"}.
+    - [Blurred vision]{"entity":"VisionProblem"} here.
+    - I'm having [trouble reading]{"entity":"VisionProblem"}.
+    - [Vision difficulties]{"entity":"VisionProblem"} are bothering me.
+    - I can't [focus my eyes properly]{"entity":"VisionProblem"}.
+    - [Lack of clear vision]{"entity":"VisionProblem"} is a problem.
+    - I'm [struggling to identify objects]{"entity":"VisionProblem"}.
+    - I have [vision impairment]{"entity":"VisionProblem"}.
+    - It's like I'm [losing my vision]{"entity":"VisionProblem"}.
+    - [Vision problems]{"entity":"VisionProblem"} are concerning me.
+    - I'm blinking and [can't see clearly]{"entity":"VisionProblem"}.
+    - I feel [visually impaired]{"entity":"VisionProblem"}.
+    - [Blurred vision]{"entity":"VisionProblem"} is what's happening.
+
+- synonym: VisionProblem
+  examples: |
+    - Blurry vision
+    - Difficulty seeing
+    - Focus my eyes
+    - See properly
+    - Vision is a struggle
+    - Struggling with my eyesight
+    - Difficult to see
+    - Sight is impaired
+    - Blurred vision
+    - Trouble reading
+    - Vision difficulties
+    - Focus my eyes properly
+    - Lack of clear vision
+    - Struggling to identify objects
+    - Vision impairment
+    - Losing my vision
+    - Vision problems
+    - Can't see clearly
+    - Visually impaired
+    - Blurred vision
+
+- intent: tell_me_symptom_Nosebleeds
+  examples: |
+    - I am having [nosebleeds]{"entity":"Nosebleeds"}.
+    - I'm experiencing [bleeding from my nose]{"entity":"Nosebleeds"}.
+    - I have [nosebleeds frequently]{"entity":"Nosebleeds"}.
+    - It's hard to [stop my nosebleed]{"entity":"Nosebleeds"}.
+    - I can't [control the nosebleed]{"entity":"Nosebleeds"}.
+    - [Nosebleeds]{"entity":"Nosebleeds"} are a recurring issue for me.
+    - I feel like I'm [losing blood from my nose]{"entity":"Nosebleeds"}.
+    - My [nose keeps bleeding]{"entity":"Nosebleeds"}.
+    - [Bleeding from the nose]{"entity":"Nosebleeds"} here.
+    - I'm having [trouble with nosebleeds]{"entity":"Nosebleeds"}.
+    - [Frequent nosebleeds]{"entity":"Nosebleeds"} are bothering me.
+    - I can't [stop the bleeding from my nose]{"entity":"Nosebleeds"}.
+    - [Persistent nosebleeds]{"entity":"Nosebleeds"} are a problem.
+    - I'm [struggling to manage nosebleeds]{"entity":"Nosebleeds"}.
+    - I have [nosebleeds and bleeding issues]{"entity":"Nosebleeds"}.
+    - It's like I'm [dealing with nosebleeds]{"entity":"Nosebleeds"}.
+    - [Nosebleed problems]{"entity":"Nosebleeds"} are concerning me.
+    - I'm [trying to stop my nosebleed]{"entity":"Nosebleeds"}.
+    - I feel [nosebleed-prone]{"entity":"Nosebleeds"}.
+    - [Nosebleeds]{"entity":"Nosebleeds"} are what's happening.
+
+- synonym: Nosebleeds
+  examples: |
+    - Bleeding from the nose
+    - Nosebleeds frequently
+    - Stop my nosebleed
+    - Control the nosebleed
+    - Recurring nosebleeds
+    - Losing blood from the nose
+    - Nose keeps bleeding
+    - Bleeding from the nose
+    - Trouble with nosebleeds
+    - Frequent nosebleeds
+    - Stop the bleeding from my nose
+    - Persistent nosebleeds
+    - Struggling to manage nosebleeds
+    - Nosebleeds and bleeding issues
+    - Dealing with nosebleeds
+    - Nosebleed problems
+    - Trying to stop my nosebleed
+    - Nosebleed-prone
+    - Nosebleeds
+
+- intent: tell_me_symptom_MemoryLoss
+  examples: |
+    - I am experiencing [memory loss]{"entity":"MemoryLoss"}.
+    - I'm having [trouble remembering things]{"entity":"MemoryLoss"}.
+    - I have [difficulty with my memory]{"entity":"MemoryLoss"}.
+    - It's hard for me to [recall information]{"entity":"MemoryLoss"}.
+    - I can't [remember things properly]{"entity":"MemoryLoss"}.
+    - [Memory loss]{"entity":"MemoryLoss"} is a concern for me.
+    - I feel like I'm [forgetting important details]{"entity":"MemoryLoss"}.
+    - I'm struggling to [retain information]{"entity":"MemoryLoss"}.
+    - My [memory is deteriorating]{"entity":"MemoryLoss"}.
+    - [Difficulty in remembering]{"entity":"MemoryLoss"} is a problem.
+    - I'm having [trouble with my cognitive function]{"entity":"MemoryLoss"}.
+    - [Cognitive decline]{"entity":"MemoryLoss"} is concerning me.
+    - I can't [retain memories properly]{"entity":"MemoryLoss"}.
+    - [Lack of memory]{"entity":"MemoryLoss"} is a challenge.
+    - I'm [struggling with memory issues]{"entity":"MemoryLoss"}.
+    - I have [memory problems]{"entity":"MemoryLoss"}.
+    - It's like I'm [losing my ability to remember]{"entity":"MemoryLoss"}.
+    - [Memory loss]{"entity":"MemoryLoss"} is what's happening.
+    - I've included synonym like "difficulty with my memory" and other phrases that convey memory loss. Let me know if you need more examples or if there's anything else I can assist you with.
+
+- synonym: MemoryLoss
+  examples: |
+    - Trouble remembering things
+    - Difficulty with my memory
+    - Recall information
+    - Remember things properly
+    - Memory loss is a concern
+    - Forgetting important details
+    - Struggling to retain information
+    - Memory is deteriorating
+    - Difficulty in remembering
+    - Trouble with my cognitive function
+    - Cognitive decline
+    - Retain memories properly
+    - Lack of memory
+    - Struggling with memory issues
+    - Memory problems
+    - Losing my ability to remember
+    - Memory loss
+
+- intent: tell_me_symptom_DifficultyProblemSolving
+  examples: |
+    - I am experiencing [difficulty in problem solving]{"entity":"ProblemSolving"}.
+    - I'm having [trouble solving problems]{"entity":"ProblemSolving"}.
+    - I have [issues with critical thinking]{"entity":"ProblemSolving"}.
+    - It's hard for me to [find solutions]{"entity":"ProblemSolving"}.
+    - I can't [solve problems properly]{"entity":"ProblemSolving"}.
+    - [Problem solving]{"entity":"ProblemSolving"} is a challenge for me.
+    - I feel like I'm [struggling to make decisions]{"entity":"ProblemSolving"}.
+    - I'm perplexed, and it's [difficult to analyze situations]{"entity":"ProblemSolving"}.
+    - My [critical thinking is impaired]{"entity":"ProblemSolving"}.
+    - [Lack of problem-solving skills]{"entity":"ProblemSolving"} is a problem.
+    - I'm having [trouble with decision-making]{"entity":"ProblemSolving"}.
+    - [Problem-solving difficulties]{"entity":"ProblemSolving"} are bothering me.
+    - I can't [analyze situations properly]{"entity":"ProblemSolving"}.
+    - [Impaired critical thinking]{"entity":"ProblemSolving"} is a concern.
+    - I'm [struggling to find solutions]{"entity":"ProblemSolving"}.
+    - I have [problems with critical analysis]{"entity":"ProblemSolving"}.
+    - It's like I'm [facing challenges in problem solving]{"entity":"ProblemSolving"}.
+    - [Problem-solving problems]{"entity":"ProblemSolving"} are concerning me.
+    - I'm [trying to enhance my problem-solving skills]{"entity":"ProblemSolving"}.
+    - I feel [challenged in critical thinking]{"entity":"ProblemSolving"}.
+    - [Difficulty in problem solving]{"entity":"ProblemSolving"} is what's happening.
+
+- synonym: ProblemSolving
+  examples: |
+    - Trouble solving problems
+    - Issues with critical thinking
+    - Find solutions
+    - Solve problems properly
+    - Problem solving is a challenge
+    - Struggling to make decisions
+    - Difficult to analyze situations
+    - Critical thinking is impaired
+    - Lack of problem-solving skills
+    - Trouble with decision-making
+    - Problem-solving difficulties
+    - Analyze situations properly
+    - Impaired critical thinking
+    - Struggling to find solutions
+    - Problems with critical analysis
+    - Facing challenges in problem solving
+    - Problem-solving problems
+    - Trying to enhance problem-solving skills
+    - Challenged in critical thinking
+    - Difficulty in problem solving
+
+- intent: tell_me_symptom_Disorientation
+  examples: |
+    - I am experiencing [disorientation]{"entity":"Disorientation"}.
+    - I'm feeling [confused and disoriented]{"entity":"Disorientation"}.
+    - I have [trouble with orientation]{"entity":"Disorientation"}.
+    - It's hard for me to [know where I am]{"entity":"Disorientation"}.
+    - I can't [focus on my surroundings]{"entity":"Disorientation"}.
+    - [Disorientation]{"entity":"Disorientation"} is a concern for me.
+    - I feel like I'm [losing my sense of direction]{"entity":"Disorientation"}.
+    - I'm bewildered, and it's [difficult to recognize my environment]{"entity":"Disorientation"}.
+    - My [orientation is impaired]{"entity":"Disorientation"}.
+    - [Lack of orientation]{"entity":"Disorientation"} is a problem.
+    - I'm having [trouble staying oriented]{"entity":"Disorientation"}.
+    - [Orientation difficulties]{"entity":"Disorientation"} are bothering me.
+    - I can't [navigate my surroundings properly]{"entity":"Disorientation"}.
+    - [Impaired sense of direction]{"entity":"Disorientation"} is a concern.
+    - I'm [struggling with disorientation]{"entity":"Disorientation"}.
+    - I have [orientation problems]{"entity":"Disorientation"}.
+    - It's like I'm [facing challenges in staying oriented]{"entity":"Disorientation"}.
+    - [Disorientation issues]{"entity":"Disorientation"} are concerning me.
+    - I'm [trying to regain my orientation]{"entity":"Disorientation"}.
+    - I feel [disoriented and confused]{"entity":"Disorientation"}.
+    - [Disorientation]{"entity":"Disorientation"} is what's happening.
+
+- synonym: Disorientation
+  examples: |
+    - Confused and disoriented
+    - Trouble with orientation
+    - Know where I am
+    - Focus on my surroundings
+    - Disorientation is a concern
+    - Losing my sense of direction
+    - Difficult to recognize my environment
+    - Orientation is impaired
+    - Lack of orientation
+    - Trouble staying oriented
+    - Orientation difficulties
+    - Navigate my surroundings properly
+    - Impaired sense of direction
+    - Struggling with disorientation
+    - Orientation problems
+    - Facing challenges in staying oriented
+    - Disorientation issues
+    - Trying to regain my orientation
+    - Disoriented and confused
+    - Disorientation
+
+- intent: tell_me_symptom_LossInHeight
+  examples: |
+    - I am experiencing [loss in height]{"entity":"LossInHeight"}.
+    - I'm noticing [a decrease in my height]{"entity":"LossInHeight"}.
+    - I have [observed a reduction in my stature]{"entity":"LossInHeight"}.
+    - It's hard for me to [maintain my previous height]{"entity":"LossInHeight"}.
+    - I can't [stop the decrease in my stature]{"entity":"LossInHeight"}.
+    - [Loss in height]{"entity":"LossInHeight"} is a concern for me.
+    - I feel like I'm [getting shorter]{"entity":"LossInHeight"}.
+    - I'm noticing [a decline in my height]{"entity":"LossInHeight"}.
+    - My [stature is diminishing]{"entity":"LossInHeight"}.
+    - [Reduced height]{"entity":"LossInHeight"} is a problem.
+    - I'm having [trouble maintaining my stature]{"entity":"LossInHeight"}.
+    - [Height loss]{"entity":"LossInHeight"} is bothering me.
+    - I can't [prevent the decrease in my height]{"entity":"LossInHeight"}.
+    - [Diminished stature]{"entity":"LossInHeight"} is a concern.
+    - I'm [struggling to retain my height]{"entity":"LossInHeight"}.
+    - I have [height reduction]{"entity":"LossInHeight"}.
+    - It's like I'm [facing challenges in maintaining my height]{"entity":"LossInHeight"}.
+    - [Height decrease]{"entity":"LossInHeight"} is concerning me.
+    - I'm [trying to address my loss in height]{"entity":"LossInHeight"}.
+    - I feel [concerned about my reduced stature]{"entity":"LossInHeight"}.
+    - [Loss in height]{"entity":"LossInHeight"} is what's happening.
+
+- synonym: LossInHeight
+  examples: |
+    - Decrease in height
+    - A decrease in stature
+    - Observed reduction in height
+    - Maintain previous height
+    - Stop the decrease in stature
+    - Loss in height is a concern
+    - Getting shorter
+    - Decline in height
+    - Stature is diminishing
+    - Reduced height
+    - Trouble maintaining stature
+    - Height loss
+    - Prevent the decrease in height
+    - Diminished stature
+    - Struggling to retain height
+    - Height reduction
+    - Facing challenges in maintaining height
+    - Height decrease
+    - Trying to address loss in height
+    - Concerned about reduced stature
+    - Loss in height
+
+- intent: tell_me_symptom_FragileBones
+  examples: |
+    - I have [fragile bones]{"entity":"FragileBones"} and am prone to [fractures]{"entity":"FragileBones"}.
+    - My bones are [easily fractured]{"entity":"FragileBones"} due to their fragility.
+    - I'm at risk of [bone fractures]{"entity":"FragileBones"} because of my [fragile bones]{"entity":"FragileBones"}.
+    - [Fragile bones]{"entity":"FragileBones"} make me susceptible to [fractures]{"entity":"FragileBones"}.
+    - I'm [prone to fractures]{"entity":"FragileBones"} because of my [fragile bones]{"entity":"FragileBones"}.
+    - [Bone fragility]{"entity":"FragileBones"} leads to [fractures]{"entity":"FragileBones"} for me.
+    - I'm worried about [bone fractures]{"entity":"FragileBones"} due to my [fragile bones]{"entity":"FragileBones"}.
+    - [Easily broken bones]{"entity":"FragileBones"} result in [fractures]{"entity":"FragileBones"} for me.
+    - My [bone strength is low]{"entity":"FragileBones"}, and I'm prone to [fractures]{"entity":"FragileBones"}.
+    - [Fractures]{"entity":"FragileBones"} are a concern due to my [fragile bones]{"entity":"FragileBones"}.
+    - I have [brittle bones]{"entity":"FragileBones"} and am [susceptible to fractures]{"entity":"FragileBones"}.
+    - My [bone health is poor]{"entity":"FragileBones"}, and I'm prone to [fractures]{"entity":"FragileBones"}.
+    - [Bone fragility]{"entity":"FragileBones"} increases my risk of [fractures]{"entity":"FragileBones"}.
+    - I'm [vulnerable to fractures]{"entity":"FragileBones"} due to my [fragile bones]{"entity":"FragileBones"}.
+    - [Weak bones]{"entity":"FragileBones"} make me prone to [fractures]{"entity":"FragileBones"}.
+    - I'm at risk of [bone fractures]{"entity":"FragileBones"} because of my [fragile bones]{"entity":"FragileBones"}.
+    - [Bone fragility]{"entity":"FragileBones"} leads to [fractures]{"entity":"FragileBones"} for me.
+    - I'm concerned about [fractures]{"entity":"FragileBones"} due to my [fragile bones]{"entity":"FragileBones"}.
+    - [Easily broken bones]{"entity":"FragileBones"} result in [fractures]{"entity":"FragileBones"} for me.
+    - My [bone strength is low]{"entity":"FragileBones"}, and I'm prone to [fractures]{"entity":"FragileBones"}.
+    - [Fractures]{"entity":"FragileBones"} are a concern due to my [fragile bones]{"entity":"FragileBones"}.
+
+- synonym: FragileBones
+  examples: |
+    - Weak bones
+    - Easily broken bones
+    - Brittle bones
+    - Low bone strength
+    - Bone fragility
+    - Bone health is poor
+    - Susceptible to fractures
+    - Prone to fractures
+    - Easily fractured bones
+    - Vulnerable to fractures
+    - Risk of bone fractures
+    - Fractures due to bone fragility
+    - Concerned about bone fractures
+    - Bone fragility increases fracture risk
+    - Bone strength is low
+    - Fragile bone health
+    - At risk of fractures
+    - Bone fragility leads to fractures
+    - Bone fractures are a concern
+    - Bone health vulnerability
+
+- intent: tell_me_symptom_SkinColorLoss
+  examples: |
+    - I am experiencing [loss of skin color in patches]{"entity":"SkinColorLoss"}.
+    - I have [patches of skin with no color]{"entity":"SkinColorLoss"}.
+    - My skin has [lost color in certain areas]{"entity":"SkinColorLoss"}.
+    - There are [discolored patches on my skin]{"entity":"SkinColorLoss"}.
+    - [Skin color loss]{"entity":"SkinColorLoss"} is affecting me.
+    - I've noticed [skin patches with no color]{"entity":"SkinColorLoss"}.
+    - My skin is [discolored in patches]{"entity":"SkinColorLoss"}.
+    - [Patchy loss of skin color]{"entity":"SkinColorLoss"} is a concern.
+    - It's like [certain areas of my skin have no color]{"entity":"SkinColorLoss"}.
+    - I have [skin discoloration in patches]{"entity":"SkinColorLoss"}.
+    - [Loss of skin color in patches]{"entity":"SkinColorLoss"} is bothering me.
+    - There are [discolored spots on my skin]{"entity":"SkinColorLoss"}.
+    - I'm worried about [patches of skin without color]{"entity":"SkinColorLoss"}.
+    - [Discoloration in skin patches]{"entity":"SkinColorLoss"} is what's happening.
+
+- synonym: SkinColorLoss
+  examples: |
+    - SkinColorLoss
+    - Patches of skin with no color
+    - Lost skin color in certain areas
+    - Discolored patches on the skin
+    - Skin patches with no color
+    - Skin discoloration in patches
+    - Patchy loss of skin color
+    - Skin color loss in patches
+    - Discolored spots on the skin
+
+- intent: tell_me_symptom_GrayingHair
+  examples: |
+    - I've noticed [gray hair strands]{"entity":"GrayingHair"} at a young age.
+    - My hair is [losing its natural color early]{"entity":"GrayingHair"}.
+    - I'm seeing [premature graying]{"entity":"GrayingHair"} of my hair.
+    - [Gray hair before 30]{"entity":"GrayingHair"} is a concern for me.
+    - My hair is [turning silver prematurely]{"entity":"GrayingHair"}.
+    - I'm experiencing [early graying]{"entity":"GrayingHair"} of my hair.
+    - [Gray strands in hair]{"entity":"GrayingHair"} are becoming more noticeable.
+    - I've got [gray hair in my 20s]{"entity":"GrayingHair"}.
+    - It's like I'm [aging too fast]{"entity":"GrayingHair"} with my hair.
+    - [Premature silver hair]{"entity":"GrayingHair"} is what I'm dealing with.
+    - I'm worried about [prematurely gray hair]{"entity":"GrayingHair"}.
+    - [White hair before 40]{"entity":"GrayingHair"} is unusual.
+    - I have [gray streaks]{"entity":"GrayingHair"} in my hair.
+    - My hair is [losing pigmentation early]{"entity":"GrayingHair"}.
+    - [Hair turning gray in your 20s]{"entity":"GrayingHair"} can be distressing.
+    - I'm looking for solutions to [prevent premature graying]{"entity":"GrayingHair"}.
+    - [Gray hair at a young age]{"entity":"GrayingHair"} runs in my family.
+    - [Graying hair in your 20s]{"entity":"GrayingHair"} can be a genetic trait.
+    - I'm researching [causes of premature graying]{"entity":"GrayingHair"}.
+    - [Youthful gray hair]{"entity":"GrayingHair"} is becoming a trend.
+
+- synonym: GrayingHair
+  examples: |
+    - GrayingHair
+    - Losing natural hair color early
+    - Premature graying
+    - Gray before 30
+    - Turning silver prematurely
+    - Early graying
+    - Gray hair in 20s
+    - Aging too fast with hair
+    - Premature silver hair
+    - Prematurely gray hair
+    - White hair before 40
+    - Gray streaks
+    - Losing pigmentation early
+    - Hair turning gray in 20s
+    - Preventing premature graying
+    - Genetic causes of graying hair
+    - Youthful gray hair
+
+- intent: tell_me_symptom_Sunburn
+  examples: |
+    - My skin is [extremely sensitive to the sun]{"entity":"Sunburn"}.
+    - I [burn easily in the sun]{"entity":"Sunburn"}.
+    - Sunburn happens to me [quickly]{"entity":"Sunburn"}.
+    - I have [sunburn-prone skin]{"entity":"Sunburn"}.
+    - [Sun exposure causes skin issues]{"entity":"Sunburn"} for me.
+    - I get [red and painful sunburns]{"entity":"Sunburn"}.
+    - [Sunburnt easily]{"entity":"Sunburn"} is a problem.
+    - I'm [highly susceptible to sunburn]{"entity":"Sunburn"}.
+    - My skin [reacts strongly to the sun]{"entity":"Sunburn"}.
+    - I need to be careful in the sun because I [burn quickly]{"entity":"Sunburn"}.
+    - I'm [prone to getting sunburned]{"entity":"Sunburn"}.
+    - [Sunscreen is a must]{"entity":"Sunburn"} for me.
+    - [Skin burns easily in the sun]{"entity":"Sunburn"}.
+    - I'm looking for ways to [prevent sunburn]{"entity":"Sunburn"}.
+    - [Sunburn protection]{"entity":"Sunburn"} is important to me.
+    - [Sun allergy]{"entity":"Sunburn"} affects me.
+    - [Sun-induced skin issues]{"entity":"Sunburn"} are a concern.
+    - I have [sun-sensitive skin]{"entity":"Sunburn"}.
+    - My skin [turns red and burns]{"entity":"Sunburn"} in the sun.
+    - I [can't stay in the sun for long]{"entity":"Sunburn"}.
+
+- synonym: Sunburn
+  examples: |
+    - Sunburn
+    - Burn easily in the sun
+    - Sunburn-prone
+    - Sun exposure sensitivity
+    - Red and painful sunburns
+    - Highly susceptible to sunburn
+    - Strong sun reaction
+    - Prone to sunburn
+    - Sunscreen necessity
+    - Skin burns easily in the sun
+    - Preventing sunburn
+    - Sun allergy
+    - Sun-induced skin issues
+    - Sun-sensitive skin
+    - Turn red and burn in the sun
+    - Can't stay in the sun for long
+
+- intent: tell_me_symptom_sore_throat
+  examples: |
+    - I have a [sore throat]{"entity":"sore throat"}.
+    - My [throat]{"entity":"sore throat"} is really sore.
+    - Can you help with my [sore throat]{"entity":"sore throat"}?
+    - The [sore throat]{"entity":"sore throat"} is causing me discomfort.
+    - Is a [sore throat]{"entity":"sore throat"} a sign of illness?
+    - What can I do about my scratchy [throat]{"entity":"sore throat"}?
+    - The [throat]{"entity":"sore throat"} pain is making it hard to eat.
+    - How to soothe a [sore throat]{"entity":"sore throat"}
+    - I need advice for my [sore throat]{"entity":"sore throat"}.
+
+- intent: tell_me_symptom_WateryStools
+  examples: |
+    - I'm experiencing [watery stools]{"entity":"WateryStools"}.
+    - My bowel movements are loose, and I suspect it's [diarrhea]{"entity":"WateryStools"}.
+    - I have [loose stools]{"entity":"WateryStools"}, and it's making me uncomfortable.
+    - Lately, I've been having [diarrhea symptoms]{"entity":"WateryStools"}.
+    - Can you help me with my [frequent watery bowel movements]{"entity":"WateryStools"}?
+    - I'm having [diarrhea]{"entity":"WateryStools"}, and it's causing distress.
+    - I need advice on dealing with these persistent [watery stools]{"entity":"WateryStools"}.
+    - My [stomach upset]{"entity":"WateryStools"} is causing loose bowel movements.
+    - I have [loose bowel movements]{"entity":"WateryStools"}.
+    - How can I relieve my [diarrheal condition]{"entity":"WateryStools"}?
+    - It feels like I've had [watery stools]{"entity":"WateryStools"} for days.
+    - I'm looking for remedies for my [diarrheal state]{"entity":"WateryStools"}.
+    - Do you have any suggestions for dealing with [frequent loose stools]{"entity":"WateryStools"}?
+    - These [watery stools]{"entity":"WateryStools"} are unbearable.
+    - My bowel movements are frequent, and I suspect it's [diarrhea]{"entity":"WateryStools"}.
+    - My [diarrhea]{"entity":"WateryStools"} just won't go away.
+    - How do I get rid of this persistent [diarrheal condition]{"entity":"WateryStools"}?
+    - I've tried everything to relieve my [diarrhea symptoms]{"entity":"WateryStools"}.
+    - What can I do about [frequent watery stools]{"entity":"WateryStools"}?
+
+- intent: tell_me_symptom_BodyAche
+  examples: |
+    - I'm experiencing [body ache]{"entity":"BodyAche"}.
+    - My body is in pain, and I suspect I have [body ache]{"entity":"BodyAche"}.
+    - I feel really [sore all over]{"entity":"BodyAche"}.
+    - Lately, I've been having [body ache symptoms]{"entity":"BodyAche"}.
+    - Can you help me with my [aching body]{"entity":"BodyAche"}?
+    - I'm suffering from [body pain]{"entity":"BodyAche"}, and it's making me uncomfortable.
+    - I need advice on dealing with this persistent [body ache]{"entity":"BodyAche"}.
+    - My [body ache]{"entity":"BodyAche"} is causing me distress.
+    - I have [sore body signs]{"entity":"BodyAche"}.
+    - How can I relieve my [painful body]{"entity":"BodyAche"}?
+    - It feels like I've had this [body discomfort]{"entity":"BodyAche"} for days.
+    - I'm looking for remedies for my [sore body condition]{"entity":"BodyAche"}.
+    - Do you have any suggestions for dealing with a sudden [body ache]{"entity":"BodyAche"}?
+    - This [body pain]{"entity":"BodyAche"} is unbearable.
+    - My body is in pain, and I suspect it's [body ache]{"entity":"BodyAche"}.
+    - My [body ache]{"entity":"BodyAche"} just won't go away.
+    - How do I get rid of this persistent [painful body]{"entity":"BodyAche"}?
+    - I've tried everything to relieve my [body ache symptoms]{"entity":"BodyAche"}.
+    - What can I do about my [aching all over]{"entity":"BodyAche"}?
+
+- intent: tell_me_symptom_Cough
+  examples: |
+    - I'm experiencing a [cough]{"entity":"Cough"}.
+    - I can't stop [coughing]{"entity":"Cough"}.
+    - Lately, I've been coughing a lot, and I'm worried it might be a [cough]{"entity":"Cough"}.
+    - Can you help me with my persistent [cough]{"entity":"Cough"}?
+    - I'm suffering from a [cough]{"entity":"Cough"}, and it's causing me discomfort.
+    - I need advice on dealing with this [cough]{"entity":"Cough"}.
+    - My [cough]{"entity":"Cough"} is causing me distress.
+    - I have signs of a [cough]{"entity":"Cough"}.
+    - How can I relieve my [cough]{"entity":"Cough"}?
+    - It feels like I've had this [cough]{"entity":"Cough"} for days.
+    - I'm looking for remedies for my [persistent cough]{"entity":"Cough"}.
+    - Do you have any suggestions for dealing with a sudden [cough]{"entity":"Cough"}?
+    - This [cough]{"entity":"Cough"} is unbearable.
+    - I can't stop coughing, and I suspect it's a [cough]{"entity":"Cough"}.
+    - My [cough]{"entity":"Cough"} just won't go away.
+    - How do I get rid of this [persistent cough]{"entity":"Cough"}?
+    - I've tried everything to relieve my [cough]{"entity":"Cough"}.
+    - What can I do about my [incessant cough]{"entity":"Cough"}?
+
+- intent: tell_me_symptom_Frequent_Urination
+  examples: |
+    - I'm experiencing [frequent urination]{"entity":"Frequent_Urination"}.
+    - I have to [urinate often]{"entity":"Frequent_Urination"}, and it's concerning me.
+    - Lately, I've been [peeing a lot]{"entity":"Frequent_Urination"}, and I'm worried about it.
+    - Can you help me with my [frequent urination]{"entity":"Frequent_Urination"}?
+    - I'm suffering from [urinating frequently]{"entity":"Frequent_Urination"}, and it's causing me discomfort.
+    - I need advice on dealing with this [frequent urination]{"entity":"Frequent_Urination"}.
+    - My [urination frequency]{"entity":"Frequent_Urination"} is causing me distress.
+    - I have signs of [frequent urination]{"entity":"Frequent_Urination"}.
+    - How can I relieve my [frequent urination]{"entity":"Frequent_Urination"}?
+    - It feels like I've had this [peeing often]{"entity":"Frequent_Urination"} for days.
+    - I'm looking for remedies for my [persistent frequent urination]{"entity":"Frequent_Urination"}.
+    - Do you have any suggestions for dealing with [sudden frequent urination]{"entity":"Frequent_Urination"}?
+    - This [frequent urination]{"entity":"Frequent_Urination"} is unbearable.
+    - I have to [urinate frequently]{"entity":"Frequent_Urination"}, and I suspect it's [frequent urination]{"entity":"Frequent_Urination"}.
+    - My [frequent urination]{"entity":"Frequent_Urination"} just won't go away.
+    - How do I get rid of this [persistent urination frequency]{"entity":"Frequent_Urination"}?
+    - I've tried everything to reduce my [frequent urination]{"entity":"Frequent_Urination"}.
+    - What can I do about my [incessant urination]{"entity":"Frequent_Urination"}?
+
+- intent: tell_me_symptom_Excessive_Thirst
+  examples: |
+    - I'm experiencing [excessive thirst]{"entity":"Excessive_Thirst"}.
+    - I can't seem to quench my [thirst]{"entity":"Excessive_Thirst"}.
+    - Lately, I've been feeling [extremely thirsty]{"entity":"Excessive_Thirst"} all the time.
+    - Can you help me with my persistent [excessive thirst]{"entity":"Excessive_Thirst"}?
+    - I'm suffering from [constant thirst]{"entity":"Excessive_Thirst"}, and it's causing me discomfort.
+    - I need advice on dealing with this [excessive thirst]{"entity":"Excessive_Thirst"}.
+    - My [thirst levels]{"entity":"Excessive_Thirst"} are causing me distress.
+    - I have signs of [excessive thirst]{"entity":"Excessive_Thirst"}.
+    - How can I relieve my [excessive thirst]{"entity":"Excessive_Thirst"}?
+    - It feels like I've had this [unquenchable thirst]{"entity":"Excessive_Thirst"} for days.
+    - I'm looking for remedies for my [persistent excessive thirst]{"entity":"Excessive_Thirst"}.
+    - Do you have any suggestions for dealing with [sudden excessive thirst]{"entity":"Excessive_Thirst"}?
+    - This [excessive thirst]{"entity":"Excessive_Thirst"} is unbearable.
+    - I can't seem to stop feeling [excessively thirsty]{"entity":"Excessive_Thirst"}, and I suspect it's [excessive thirst]{"entity":"Excessive_Thirst"}.
+    - My [excessive thirst]{"entity":"Excessive_Thirst"} just won't go away.
+    - How do I get rid of this [persistent excessive thirst]{"entity":"Excessive_Thirst"}?
+    - I've tried everything to alleviate my [excessive thirst]{"entity":"Excessive_Thirst"}.
+    - What can I do about my [incessant thirst]{"entity":"Excessive_Thirst"}?
+
+- intent: tell_me_symptom_Sensitivity_to_Light
+  examples: |
+    - I'm experiencing [sensitivity to light]{"entity":"Sensitivity_to_Light"}.
+    - Bright lights are bothering my [eyes]{"entity":"Sensitivity_to_Light"}.
+    - Lately, I've been having [light sensitivity]{"entity":"Sensitivity_to_Light"}, and it's affecting me.
+    - Can you help me with my persistent [sensitivity to light]{"entity":"Sensitivity_to_Light"}?
+    - I'm suffering from [photophobia]{"entity":"Sensitivity_to_Light"}, and it's causing me discomfort.
+    - I need advice on dealing with this [light sensitivity]{"entity":"Sensitivity_to_Light"}.
+    - My [eyes are sensitive to light]{"entity":"Sensitivity_to_Light"} are causing me distress.
+    - I have signs of [sensitivity to light]{"entity":"Sensitivity_to_Light"}.
+    - How can I relieve my [photophobia]{"entity":"Sensitivity_to_Light"}?
+    - It feels like I've had this [light sensitivity]{"entity":"Sensitivity_to_Light"} for days.
+    - I'm looking for remedies for my [persistent sensitivity to light]{"entity":"Sensitivity_to_Light"}.
+    - Do you have any suggestions for dealing with [sudden sensitivity to light]{"entity":"Sensitivity_to_Light"}?
+    - This [sensitivity to light]{"entity":"Sensitivity_to_Light"} is unbearable.
+    - I can't seem to escape [light sensitivity]{"entity":"Sensitivity_to_Light"}, and I suspect it's [sensitivity to light]{"entity":"Sensitivity_to_Light"}.
+    - My [sensitivity to light]{"entity":"Sensitivity_to_Light"} just won't go away.
+    - How do I get rid of this [persistent photophobia]{"entity":"Sensitivity_to_Light"}?
+    - I've tried everything to alleviate my [light sensitivity]{"entity":"Sensitivity_to_Light"}.
+    - What can I do about my [incessant sensitivity to light]{"entity":"Sensitivity_to_Light"}?
+
+- intent: tell_me_symptom_Headache
+  examples: |
+    - I am having an [headache]{"entity":"Headache"}.
+    - My day started with a terrible [headache]{"entity":"Headache"}.
+    - I've got this pounding [nausea]{"entity":"Headache"}.
+    - Lately, I've been experiencing a constant [head discomfort]{"entity":"Headache"}.
+    - Can you help me with my [headache]{"entity":"Headache"}?
+    - My [headache]{"entity":"Headache"} is really bothering me.
+    - I need advice on dealing with this persistent [headache]{"entity":"Headache"}.
+    - I can't concentrate because of this [headache]{"entity":"Headache"}.
+    - How can I relieve my [dizziness]{"entity":"Headache"}?
+    - It feels like I've had this [stress in head]{"entity":"Headache"} for days.
+    - My head is pounding, and I suspect it's a [headache]{"entity":"Headache"}.
+    - I'm looking for a remedy for my [headache]{"entity":"Headache"}.
+    - Do you have any suggestions for dealing with a sudden [headache]{"entity":"Headache"}?
+    - This [throbbing head]{"entity":"Headache"} is unbearable.
+    - I woke up with a splitting [headache]{"entity":"Headache"}.
+    - My [headache]{"entity":"Headache"} just won't go away.
+    - How do I get rid of this persistent [ache in head]{"entity":"Headache"}?
+    - I've tried everything to relieve my [tension]{"entity":"Headache"}.
+    - What can I do about my severe [pain in head]{"entity":"Headache"}?
+    - This [headpain]{"entity":"Headache"} is affecting my daily life.
+
+- intent: tell_me_symptom_Stomachache
+  examples: |
+    - I am having a [stomachache]{"entity":"Stomachache"}.
+    - My day started with a terrible [abdominal pain]{"entity":"Stomachache"}.
+    - I've got this pounding [nausea]{"entity":"Stomachache"} in my stomach.
+    - Lately, I've been experiencing a constant [stomach discomfort]{"entity":"Stomachache"}.
+    - Can you help me with my [upset stomach]{"entity":"Stomachache"}?
+    - My [stomachache]{"entity":"Stomachache"} is really bothering me.
+    - I need advice on dealing with this persistent [tummy ache]{"entity":"Stomachache"}.
+    - I can't concentrate because of this [stomach pain]{"entity":"Stomachache"}.
+    - How can I relieve my [stomach cramps]{"entity":"Stomachache"}?
+    - It feels like I've had this [stomach discomfort]{"entity":"Stomachache"} for days.
+    - My stomach is churning, and I suspect it's a [digestive issue]{"entity":"Stomachache"}.
+    - I'm looking for a remedy for my [bellyache]{"entity":"Stomachache"}.
+    - Do you have any suggestions for dealing with a sudden [stomachache]{"entity":"Stomachache"}?
+    - This [abdominal pain]{"entity":"Stomachache"} is unbearable.
+    - I woke up with a splitting [stomachache]{"entity":"Stomachache"}.
+    - My [stomachache]{"entity":"Stomachache"} just won't go away.
+    - How do I get rid of this persistent [ache in my stomach]{"entity":"Stomachache"}?
+    - I've tried everything to relieve my [tummy troubles]{"entity":"Stomachache"}.
+    - What can I do about my severe [pain in my stomach]{"entity":"Stomachache"}?
+    - This [belly pain]{"entity":"Stomachache"} is affecting my daily life.
+
+- synonym: Headache
+  examples: |
+    - headache
+    - pain in head
+    - nausea
+    - dizziness
+    - tension
+    - ache in head
+    - headpain
+    - stress
+    - stress in head
+    - head pain
+    - tension headache
+    - throbbing head
+    - headache symptoms
+    - head discomfort
+
+- synonym: Stomachache
+  examples: |
+    - stomachache
+    - abdominal pain
+    - stomach pain
+    - tummy ache
+    - bellyache
+    - upset stomach
+    - stomach discomfort
+    - stomach cramps
+    - digestive issue
+    - belly pain
+    - tummy troubles
+    - ache in my stomach
+
+- synonym: Sore Throat
+  examples: |
+    - sore throat
+    - throat pain
+    - throat discomfort
+    - painful throat
+    - scratchy throat
+    - hoarse throat
+    - throat ache
+    - throat soreness
+    - raw throat
+    - itchy throat
+    - difficulty swallowing
+    - throat infection
+    - throat inflammation
+    - throat irritation
+
+- synonym: WateryStools
+  examples: |
+    - watery stools
+    - loose stools
+    - diarrhea
+    - frequent watery bowel movements
+    - diarrhea symptoms
+    - stomach upset
+    - frequent loose stools
+    - loose bowel movements
+    - diarrheal condition
+    - diarrheal state
+    - loose bowel movements
+    - frequent bowel movements
+    - watery diarrhea
+    - loose motions
+    - liquid stool
+    - loose bowel
+    - runny stool
+    - diarrhea problem
+    - bowel troubles
+
+- synonym: BodyAche
+  examples: |
+    - body ache
+    - pain all over
+    - aching body
+    - sore all over
+    - body pain
+    - sore body
+    - body discomfort
+    - aching muscles
+    - discomfort in body
+    - muscle pain
+    - painful body
+    - sore muscles
+    - body soreness
+    - aching all over
+    - muscle discomfort
+    - whole-body pain
+    - discomfort in muscles
+    - entire body ache
+    - body sore
+    - constant pain in body
+
+- synonym: Cough
+  examples: |
+    - cough
+    - hacking cough
+    - persistent cough
+    - coughing
+    - dry cough
+    - wheezing
+    - chesty cough
+    - whooping cough
+    - barking cough
+    - frequent coughing
+    - nagging cough
+    - phlegm cough
+    - coughing fits
+
+- synonym: Frequent_Urination
+  examples: |
+    - frequent urination
+    - peeing often
+    - urinating frequently
+    - excessive urination
+    - frequent pee
+    - urination frequency
+    - constant need to urinate
+    - frequent trips to the bathroom
+    - frequent bladder emptying
+    - having to pee a lot
+    - frequent urination symptoms
+    - frequent urination condition
+    - repeated urination
+    - frequent bathroom visits
+
+- synonym: Excessive_Thirst
+  examples: |
+    - excessive thirst
+    - unquenchable thirst
+    - constant thirst
+    - extreme thirst
+    - insatiable thirst
+    - unrelenting thirst
+    - relentless thirst
+    - overwhelming thirst
+    - never-ending thirst
+    - excessive need for fluids
+    - always thirsty
+    - uncontrollable thirst
+    - persistent thirst
+    - unending thirst
+    - excessive desire for water
+
+- synonym: Sensitivity_to_Light
+  examples: |
+    - sensitivity to light
+    - photophobia
+    - light sensitivity
+    - bright light discomfort
+    - eye sensitivity to light
+    - intolerance to bright lights
+    - glare sensitivity
+    - painful response to light
+    - light aversion
+    - discomfort in bright light
+    - eye photophobia
+    - light-induced pain
+    - light-triggered discomfort
+    - photophobic symptoms
+    - sensitivity to bright light
+    - painful response to glare
+    - excessive light sensitivity
+    - discomfort in well-lit areas
+    - bright light intolerance
+    - aversion to strong light
+
+- intent: tell_me_symptom_BackPain
+  examples: |
+    - I am experiencing [back pain]{"entity":"BackPain"}.
+    - My [spine hurts]{"entity":"BackPain"}.
+    - I have [pain in my back]{"entity":"BackPain"}.
+    - [My back is hurting]{"entity":"BackPain"}.
+    - I'm suffering from [spinal pain]{"entity":"BackPain"}.
+    - [Backache]{"entity":"BackPain"} is bothering me.
+    - [Pain in the spine]{"entity":"BackPain"} is a problem.
+    - I'm having [pain in my lower back]{"entity":"BackPain"}.
+    - [Lower back pain]{"entity":"BackPain"} is what I'm experiencing.
+    - [My spine is painful]{"entity":"BackPain"}.
+    - I'm in [discomfort due to back pain]{"entity":"BackPain"}.
+    - [Spinal discomfort]{"entity":"BackPain"} is an issue.
+    - [Backache troubles]{"entity":"BackPain"} me regularly.
+    - I have [pain in my upper back]{"entity":"BackPain"}.
+    - [Upper back pain]{"entity":"BackPain"} is affecting me.
+    - [Back pain in the morning]{"entity":"BackPain"} is a concern.
+    - I've included synonyms like "spinal pain," "backache," and "lower back pain." Let me know if you need more examples or if there's anything else I can assist you with.
+
+- synonym: BackPain
+  examples: |
+    - Spinal pain
+    - Lower back pain
+    - Backache
+    - Pain in the spine
+    - Upper back pain
+    - Back pain in the morning
+    - Spine hurts
+    - My back is hurting
+    - Suffering from back pain
+    - Pain in my lower back
+    - My spine is painful
+    - Discomfort due to back pain
+    - Spinal discomfort
+    - Backache troubles
+    - Pain in my upper back
+
+- intent: tell_me_symptom_Weakness
+  examples: |
+    - I am having [weakness]{"entity":"Weakness"}.
+    - I'm experiencing [lack of strength]{"entity":"Weakness"}.
+    - I have [fatigue]{"entity":"Weakness"}.
+    - It's hard for me to [stay energetic]{"entity":"Weakness"}.
+    - I can't [find my energy]{"entity":"Weakness"}.
+    - [Feeling weak]{"entity":"Weakness"} is a problem.
+    - I feel like I'm [drained]{"entity":"Weakness"}.
+    - I'm weary, and it's [difficult to keep going]{"entity":"Weakness"}.
+    - My [strength is depleted]{"entity":"Weakness"}.
+    - [Lack of energy]{"entity":"Weakness"} is bothering me.
+    - I can't [stay active]{"entity":"Weakness"}.
+    - [Low energy]{"entity":"Weakness"} is a problem.
+    - I'm [struggling to stay alert]{"entity":"Weakness"}.
+    - I have [lethargy]{"entity":"Weakness"}.
+    - It's like I'm [out of energy]{"entity":"Weakness"}.
+    - [Energy problems]{"entity":"Weakness"} are concerning me.
+    - I'm tired and [out of stamina]{"entity":"Weakness"}.
+    - I feel [physically drained]{"entity":"Weakness"}.
+    - [Experiencing weakness]{"entity":"Weakness"} is what's happening.
+    - I've included synonyms like "lack of strength" and other phrases that convey feelings of weakness. Let me know if you need more examples or if there's anything else I can assist you with.
+
+- synonym: Weakness
+  examples: |
+    - Lack of strength
+    - Fatigue
+    - Stay energetic
+    - Find my energy
+    - Feeling weak
+    - Drained
+    - Difficult to keep going
+    - Strength is depleted
+    - Lack of energy
+    - Stay active
+    - Low energy
+    - Struggling to stay alert
+    - Lethargy
+    - Out of energy
+    - Energy problems
+    - Out of stamina
+    - Physically drained
+    - Experiencing weakness
+
+- intent: tell_me_symptom_Wheezing
+  examples: |
+    - I am having [wheezing]{"entity":"Wheezing"}.
+    - I'm experiencing [whistling sound when breathing]{"entity":"Wheezing"}.
+    - I have [difficulty breathing with a high-pitched sound]{"entity":"Wheezing"}.
+    - It's hard for me to [breathe with a wheeze]{"entity":"Wheezing"}.
+    - I can't [breathe properly due to wheezing]{"entity":"Wheezing"}.
+    - [Wheezing is a problem]{"entity":"Wheezing"}.
+    - I feel like I'm [struggling to inhale with a wheeze]{"entity":"Wheezing"}.
+    - I'm wheezing, and it's [difficult to breathe]{"entity":"Wheezing"}.
+    - My [breath is labored with a wheeze]{"entity":"Wheezing"}.
+    - [Wheezing when breathing]{"entity":"Wheezing"} is bothering me.
+    - I can't [catch my breath due to wheezing]{"entity":"Wheezing"}.
+    - [High-pitched breath sounds]{"entity":"Wheezing"} are concerning me.
+    - I'm [struggling to exhale with a wheeze]{"entity":"Wheezing"}.
+    - I have [wheezing in the chest]{"entity":"Wheezing"}.
+    - It's like I'm [out of breath due to wheezing]{"entity":"Wheezing"}.
+    - [Wheezing problems]{"entity":"Wheezing"} are what's happening.
+    - I'm panting and [experiencing wheezing]{"entity":"Wheezing"}.
+    - I feel [breathless with a wheeze]{"entity":"Wheezing"}.
+    - [Experiencing wheezing]{"entity":"Wheezing"} is what's happening.
+    - I've included synonyms like "whistling sound when breathing" and other phrases that convey the symptom of wheezing. Let me know if you need more examples or if there's anything else I can assist you with.
+
+- synonym: Wheezing
+  examples: |
+    - Whistling sound when breathing
+    - Difficulty breathing with a high-pitched sound
+    - Breathe with a wheeze
+    - Breathe properly due to wheezing
+    - Struggling to inhale with a wheeze
+    - High-pitched breath sounds
+    - Struggling to exhale with a wheeze
+    - Wheezing in the chest
+    - Wheezing problems
+    - Experiencing wheezing
+
+- intent: tell_me_symptom_MorningStiffness
+  examples: |
+    - I am having [morning stiffness]{"entity":"MorningStiffness"}.
+    - I'm experiencing [stiffness in the morning]{"entity":"MorningStiffness"}.
+    - I have [difficulty moving my joints after waking up]{"entity":"MorningStiffness"}.
+    - It's hard for me to [get out of bed due to stiffness]{"entity":"MorningStiffness"}.
+    - I can't [move my body easily in the morning]{"entity":"MorningStiffness"}.
+    - [Morning stiffness is a problem]{"entity":"MorningStiffness"}.
+    - I feel like I'm [stiff when I wake up]{"entity":"MorningStiffness"}.
+    - I'm stiff, and it's [difficult to start the day]{"entity":"MorningStiffness"}.
+    - My [joints are stiff in the morning]{"entity":"MorningStiffness"}.
+    - [Morning joint stiffness]{"entity":"MorningStiffness"} is bothering me.
+    - I can't [bend or stretch in the morning]{"entity":"MorningStiffness"}.
+    - [Difficulty in morning movements]{"entity":"MorningStiffness"} is concerning me.
+    - I'm [struggling to get going in the morning]{"entity":"MorningStiffness"}.
+    - I have [morning muscle stiffness]{"entity":"MorningStiffness"}.
+    - It's like I'm [locked in the morning]{"entity":"MorningStiffness"}.
+    - [Morning stiffness problems]{"entity":"MorningStiffness"} are what's happening.
+    - I'm [slow to start in the morning]{"entity":"MorningStiffness"}.
+    - I feel [stiff when I wake up]{"entity":"MorningStiffness"}.
+    - [Experiencing morning stiffness]{"entity":"MorningStiffness"} is what's happening.
+
 - intent: goodbye
   examples: |
     - cu
@@ -620,49 +1762,15 @@ nlu:
   examples: |
     - no
     - n
+    - nope
     - never
     - I don't think so
     - don't like that
     - no way
     - not really
 
-- intent: mood_great
+- intent: fallback
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - restart
+    - Restart
+    - Thank You
