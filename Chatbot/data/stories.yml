@@ -2,8 +2,234 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: initiate symptom conversation - Breath
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: tell_me_symptom_Breath
+    entities:
+    - Breath: "shortness of breath"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
 
+- story: initiate symptom conversation - Taste
+  steps:
+  - intent: tell_me_symptom_Taste
+    entities:
+    - Taste: "loss of taste"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Fever
+  steps:
+  - intent: tell_me_symptom_Fever
+    entities:
+    - Fever: "fever"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - ChestPain
+  steps:
+  - intent: tell_me_symptom_ChestPain
+    entities:
+    - ChestPain: "chest pain"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - JointPainSwelling
+  steps:
+  - intent: tell_me_symptom_JointPainSwelling
+    entities:
+    - JointPainSwelling: "joint pain and swelling"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - VisionProblem
+  steps:
+  - intent: tell_me_symptom_VisionProblem
+    entities:
+    - VisionProblem: "vision problems"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Nosebleeds
+  steps:
+  - intent: tell_me_symptom_Nosebleeds
+    entities:
+    - Nosebleeds: "nosebleeds"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - MemoryLoss
+  steps:
+  - intent: tell_me_symptom_MemoryLoss
+    entities:
+    - MemoryLoss: "memory loss"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - DifficultyProblemSolving
+  steps:
+  - intent: tell_me_symptom_DifficultyProblemSolving
+    entities:
+    - ProblemSolving: "difficulty in problem-solving"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Disorientation
+  steps:
+  - intent: tell_me_symptom_Disorientation
+    entities:
+    - Disorientation: "disorientation"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - MemoryLoss
+  steps:
+  - intent: tell_me_symptom_MemoryLoss
+    entities:
+    - MemoryLoss: "memory loss"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - DifficultyProblemSolving
+  steps:
+  - intent: tell_me_symptom_DifficultyProblemSolving
+    entities:
+    - ProblemSolving: "difficulty in problem-solving"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Disorientation
+  steps:
+  - intent: tell_me_symptom_Disorientation
+    entities:
+    - Disorientation: "disorientation"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - SkinColorLoss
+  steps:
+  - intent: tell_me_symptom_SkinColorLoss
+    entities:
+    - SkinColorLoss: "skin color loss"
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - GrayingHair
+  steps:
+  - intent: tell_me_symptom_GrayingHair
+    entities:
+    - GrayingHair: "graying hair"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Sunburn
+  steps:
+  - intent: tell_me_symptom_Sunburn
+    entities:
+    - Sunburn: "sunburn"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - sore_throat
+  steps:
+  - intent: tell_me_symptom_sore_throat
+    entities:
+    - sore_throat: "sore throat"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - WateryStools
+  steps:
+  - intent: tell_me_symptom_WateryStools
+    entities:
+    - WateryStools: "watery stools"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - BodyAche
+  steps:
+  - intent: tell_me_symptom_BodyAche
+    entities:
+    - BodyAche: "body ache"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Cough
+  steps:
+  - intent: tell_me_symptom_Cough
+    entities:
+    - Cough: "cough"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Frequent_Urination
+  steps:
+  - intent: tell_me_symptom_Frequent_Urination
+    entities:
+    - Frequent_Urination: "frequent urination"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Excessive_Thirst
+  steps:
+  - intent: tell_me_symptom_Excessive_Thirst
+    entities:
+    - Excessive_Thirst: "excessive thirst"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Sensitivity_to_Light
+  steps:
+  - intent: tell_me_symptom_Sensitivity_to_Light
+    entities:
+    - Sensitivity_to_Light: "sensitivity to light"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Headache
+  steps:
+  - intent: tell_me_symptom_Headache
+    entities:
+    - Headache: "headache"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Stomachache
+  steps:
+  - intent: tell_me_symptom_Stomachache
+    entities:
+    - Stomachache: "stomachache"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - BackPain
+  steps:
+  - intent: tell_me_symptom_BackPain
+    entities:
+    - BackPain: "back pain"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Weakness
+  steps:
+  - intent: tell_me_symptom_Weakness
+    entities:
+    - Weakness: "weakness"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: initiate symptom conversation - Wheezing
+  steps:
+  - intent: tell_me_symptom_Wheezing
+    entities:
+    - Wheezing: "wheezing"
+  - action: action_send_symptom
+  - action: utter_ask_another_symptom
+
+- story: user provides another symptom - no
+  steps:
+  - intent: deny
+  - action: action_diagnose
+
+- story: fallback if intent is not clear
+  steps:
+  - action: utter_default
