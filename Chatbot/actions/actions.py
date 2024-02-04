@@ -144,15 +144,15 @@ class ActionSendSymptom(Action):
             if symptom_entity:
                 symptom_entities.append(symptom_entity)
 
-        if len(symptom_entities)<4 & len(symptom_entities)>0:
+        if len(symptom_entities)>3:
+            dispatcher.utter_message("You can only enter 3 symptoms max.")
+
             # Write symptoms to a text file when the size of the list is 3
             # Write to symptoms.txt
-            symptoms_text = ', '.join(symptom_entities);
-            with open('symptoms.txt', 'w') as file:
-                file.write(symptoms_text.lower())
+        symptoms_text = ', '.join(symptom_entities);
+        f = open('symptoms.txt', 'w')
+        f.write(symptoms_text.lower())
             # return [ActionExecuted("action_diagnose")]
-        
-
         return []
     
 
